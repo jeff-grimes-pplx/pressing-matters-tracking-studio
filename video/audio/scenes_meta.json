@@ -50,14 +50,14 @@
   },
   {
     "id": "s08",
-    "caption": "Now test a counterfactual what-if: drag Cologne midfielder Eric Martel 9.4 meters south into Cancelo's lane.",
+    "caption": "Now test a counterfactual what-if: drag Cologne midfielder Eric Martel 9.6 meters south into Cancelo's lane.",
     "tts": "Now test a counterfactual what-if: drag Cologne midfielder Eric Martel nine point four meters south into Cancelo's lane.",
     "vo_dur": 8.049,
     "scene_dur": 8.6
   },
   {
     "id": "s09",
-    "caption": "An amber ghost trail marks Martel's 9.4 m shift as his control pocket drops Cancelo from 93% to 0%.",
+    "caption": "An amber ghost trail marks Martel's 9.6 m shift as his control pocket drops Cancelo from 93% to 0%.",
     "tts": "An amber ghost trail marks Martel's nine point four meter shift as his control pocket drops Cancelo from ninety-three percent to zero.",
     "vo_dur": 8.929,
     "scene_dur": 9.43
@@ -78,9 +78,9 @@
   },
   {
     "id": "s12",
-    "caption": "Testing the second preset pulls Martel 10 meters deeper toward midfield, opening Musiala's pocket up to 73% completion.",
-    "tts": "Testing the second preset pulls Martel ten meters deeper toward midfield, opening Musiala's pocket up to seventy-three percent completion.",
-    "vo_dur": 7.28,
+    "caption": "Testing the second preset pulls Martel 10 meters deeper toward midfield, opening Musiala's pocket up to 71% completion.",
+    "tts": "Testing the second preset pulls Martel ten meters deeper toward midfield, opening Musiala's pocket up to seventy-one percent completion.",
+    "vo_dur": 7.278,
     "scene_dur": 7.83
   },
   {
