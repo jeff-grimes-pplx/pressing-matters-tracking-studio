@@ -1,0 +1,420 @@
+{
+ "generated": "2026-11-05T22:37:51Z",
+ "pitchControl": {
+  "scenes": 44,
+  "cells": 7140,
+  "totalCells": 314160,
+  "maxAbsDiff": 2.9802243561860564e-08,
+  "meanAbsDiff": 7.885581219317586e-09,
+  "offsideMatch": 44,
+  "referenceOvershootCells": 93,
+  "maxAbsDiffAtOvershoot": 0.036887463030059464,
+  "referenceTotMax": 1.1296963948468917,
+  "jsMs": 23.427272727272726,
+  "refMs": 3965.068181818182,
+  "sumCheck": {
+   "frames": 12,
+   "minSum": 0.99,
+   "maxSum": 1,
+   "cellsBelowConvergence": 0
+  },
+  "mirrorMaxDiff": 0,
+  "sanity": {
+   "attackerOnTarget": 1,
+   "defenderOnTarget": 0,
+   "midpoint": 0.4959665726948263
+  },
+  "symmetry": "sum \u2208 [0.99, 1.00] on 12 frames \u00d7 7140 cells, mirror max |\u0394| = 0.0e+00"
+ },
+ "ppda": {
+  "rows": [
+   {
+    "team": "home",
+    "scope": "match",
+    "py": {
+     "passes": 381,
+     "actions": 72,
+     "ppda": 5.291666666666667
+    },
+    "js": {
+     "passes": 381,
+     "actions": 72,
+     "ppda": 5.291666666666667
+    },
+    "match": true
+   },
+   {
+    "team": "home",
+    "scope": "half 1",
+    "py": {
+     "passes": 247,
+     "actions": 36,
+     "ppda": 6.861111111111111
+    },
+    "js": {
+     "passes": 247,
+     "actions": 36,
+     "ppda": 6.861111111111111
+    },
+    "match": true
+   },
+   {
+    "team": "home",
+    "scope": "half 2",
+    "py": {
+     "passes": 134,
+     "actions": 36,
+     "ppda": 3.7222222222222223
+    },
+    "js": {
+     "passes": 134,
+     "actions": 36,
+     "ppda": 3.7222222222222223
+    },
+    "match": true
+   },
+   {
+    "team": "away",
+    "scope": "match",
+    "py": {
+     "passes": 292,
+     "actions": 70,
+     "ppda": 4.171428571428572
+    },
+    "js": {
+     "passes": 292,
+     "actions": 70,
+     "ppda": 4.171428571428572
+    },
+    "match": true
+   },
+   {
+    "team": "away",
+    "scope": "half 1",
+    "py": {
+     "passes": 155,
+     "actions": 35,
+     "ppda": 4.428571428571429
+    },
+    "js": {
+     "passes": 155,
+     "actions": 35,
+     "ppda": 4.428571428571429
+    },
+    "match": true
+   },
+   {
+    "team": "away",
+    "scope": "half 2",
+    "py": {
+     "passes": 137,
+     "actions": 35,
+     "ppda": 3.914285714285714
+    },
+    "js": {
+     "passes": 137,
+     "actions": 35,
+     "ppda": 3.914285714285714
+    },
+    "match": true
+   }
+  ],
+  "rollingWindows": 388,
+  "rollingMismatches": 0,
+  "summary": "match and both halves identical (K\u00f6ln 381/72 = 5.29, Bayern 292/70 = 4.17); 388/388 rolling 5-minute windows identical"
+ },
+ "shape": {
+  "frames": 240,
+  "samePartition": 240,
+  "maxAbsDiff": {
+   "defensiveLineHeight": 0,
+   "length": 0,
+   "width": 0,
+   "hullArea": 4.547473508864641e-13
+  },
+  "lineBreakPasses": 983,
+  "lineBreakIdentical": 983,
+  "throughCount": [
+   212,
+   212
+  ],
+  "defenceLineCount": [
+   56,
+   56
+  ],
+  "summary": "line partition identical in 240/240 team-frames (exact DP k-means vs app), def-line height max |\u0394| 0.0e+00 m, hull area max |\u0394| 4.5e-13 m\u00b2; line-breaking classification identical for 983/983 passes (212 through-line passes, 56 through the defensive line)"
+ },
+ "physical": {
+  "speeds": [
+   {
+    "player": "DFL-OBJ-0002DR",
+    "frames": 3000,
+    "js_vs_py_maxAbs": 4.997210210505587e-05,
+    "js_vs_official_rmse": 0.04561555920170378,
+    "js_vs_official_medianAbs": 0.01359444841808749,
+    "js_vs_official_corr": 0.9974312518484579,
+    "mean_js": 0.9598525,
+    "mean_official": 0.964212961907119
+   },
+   {
+    "player": "DFL-OBJ-0002F5",
+    "frames": 3000,
+    "js_vs_py_maxAbs": 4.999410516681735e-05,
+    "js_vs_official_rmse": 0.056740762247547566,
+    "js_vs_official_medianAbs": 0.013483449893527455,
+    "js_vs_official_corr": 0.9990041492209999,
+    "mean_js": 2.6310931,
+    "mean_official": 2.6375351855255387
+   },
+   {
+    "player": "DFL-OBJ-00012X",
+    "frames": 3000,
+    "js_vs_py_maxAbs": 4.995651732730977e-05,
+    "js_vs_official_rmse": 0.057021841216487526,
+    "js_vs_official_medianAbs": 0.015872201029459743,
+    "js_vs_official_corr": 0.9987837887011909,
+    "mean_js": 1.8138296666666665,
+    "mean_official": 1.8155592602222332
+   },
+   {
+    "player": "DFL-OBJ-0028BD",
+    "frames": 3000,
+    "js_vs_py_maxAbs": 4.994075347997118e-05,
+    "js_vs_official_rmse": 0.04436133639089535,
+    "js_vs_official_medianAbs": 0.012577830759684439,
+    "js_vs_official_corr": 0.9995004851566898,
+    "mean_js": 2.0521122000000003,
+    "mean_official": 2.0568166655605586
+   }
+  ],
+  "distanceRatioMean": 0.9984031250000001,
+  "distanceRatioMin": 0.9965,
+  "distanceRatioMax": 1.0012,
+  "players": 32,
+  "summary": "4 players \u00d7 3000 frames: RMSE 0.044\u20130.057 m/s, r \u2265 0.9974; whole-match distance from app velocities / from the official speed column = 0.9984 on average over 32 players (range 0.9965\u20131.0012)"
+ },
+ "performance": {
+  "cpu": {
+   "model": "Intel(R) Xeon(R) Processor @ 2.90GHz",
+   "cores": 2,
+   "speedMHz": 0
+  },
+  "tests": [
+   {
+    "label": "control-1x",
+    "throttle": 1,
+    "dragged": "DFL-OBJ-002GKO",
+    "dragMs": 5977,
+    "pointerEvents": 90,
+    "surfacesComputed": 89,
+    "updatesPerSecond": 14.890413250794712,
+    "rafFrames": 309,
+    "fps": 51.69817634264681,
+    "control": {
+     "n": 89,
+     "median": 13.799999999813735,
+     "p95": 27,
+     "max": 33.10000000009313,
+     "mean": 15.406741573025336
+    },
+    "value": {
+     "n": 89,
+     "median": 0,
+     "p95": 0,
+     "max": 0,
+     "mean": 0
+    },
+    "roundTrip": {
+     "n": 89,
+     "median": 26.899999999906868,
+     "p95": 40.700000000186265,
+     "max": 47,
+     "mean": 28.571910112363735
+    },
+    "before": {
+     "bestId": "DFL-OBJ-J015S4",
+     "bestProb": 0.9342176813656096,
+     "bestGain": -0.01506903519145891
+    },
+    "after": {
+     "bestId": "DFL-OBJ-002GCR",
+     "bestProb": 0.72495052709845,
+     "bestGain": -0.011576499117123485,
+     "whatIf": 1
+    }
+   },
+   {
+    "label": "value-1x",
+    "throttle": 1,
+    "dragged": "DFL-OBJ-002GKO",
+    "dragMs": 5985,
+    "pointerEvents": 90,
+    "surfacesComputed": 89,
+    "updatesPerSecond": 14.870509607351712,
+    "rafFrames": 381,
+    "fps": 63.65914786967418,
+    "control": {
+     "n": 89,
+     "median": 13.200000000186265,
+     "p95": 16.399999999906868,
+     "max": 33.5,
+     "mean": 13.933707865127728
+    },
+    "value": {
+     "n": 89,
+     "median": 3.6999999997206032,
+     "p95": 4.099999999627471,
+     "max": 9,
+     "mean": 3.75955056182496
+    },
+    "roundTrip": {
+     "n": 89,
+     "median": 24.09999999962747,
+     "p95": 33.200000000186265,
+     "max": 46.200000000186265,
+     "mean": 25.47640449439667
+    },
+    "before": {
+     "bestId": "DFL-OBJ-J015S4",
+     "bestProb": 0.9342176813656096,
+     "bestGain": -0.01506903519145891
+    },
+    "after": {
+     "bestId": "DFL-OBJ-002GCR",
+     "bestProb": 0.72495052709845,
+     "bestGain": -0.011576499117123485,
+     "whatIf": 1
+    }
+   },
+   {
+    "label": "control-4x",
+    "throttle": 4,
+    "dragged": "DFL-OBJ-002GKO",
+    "dragMs": 19294,
+    "pointerEvents": 90,
+    "surfacesComputed": 89,
+    "updatesPerSecond": 4.612833005079299,
+    "rafFrames": 288,
+    "fps": 14.926920286099305,
+    "control": {
+     "n": 89,
+     "median": 13.700000000186265,
+     "p95": 24,
+     "max": 28.899999999906868,
+     "mean": 14.937078651694812
+    },
+    "value": {
+     "n": 89,
+     "median": 0,
+     "p95": 0,
+     "max": 0,
+     "mean": 0
+    },
+    "roundTrip": {
+     "n": 89,
+     "median": 105.89999999990687,
+     "p95": 127.1999999997206,
+     "max": 157.39999999990687,
+     "mean": 108.29887640448496
+    },
+    "before": {
+     "bestId": "DFL-OBJ-J015S4",
+     "bestProb": 0.9342176813656096,
+     "bestGain": -0.01506903519145891
+    },
+    "after": {
+     "bestId": "DFL-OBJ-002GCR",
+     "bestProb": 0.72495052709845,
+     "bestGain": -0.011576499117123485,
+     "whatIf": 1
+    }
+   },
+   {
+    "label": "control-1x-sane",
+    "throttle": 1,
+    "dragged": "DFL-OBJ-0027B6",
+    "dragMs": 5665,
+    "pointerEvents": 90,
+    "surfacesComputed": 89,
+    "updatesPerSecond": 15.710503089143867,
+    "rafFrames": 317,
+    "fps": 55.957634598411296,
+    "control": {
+     "n": 89,
+     "median": 20.100000000093132,
+     "p95": 25.5,
+     "max": 46.700000000186265,
+     "mean": 21.316853932586362
+    },
+    "value": {
+     "n": 89,
+     "median": 0,
+     "p95": 0,
+     "max": 0,
+     "mean": 0
+    },
+    "roundTrip": {
+     "n": 89,
+     "median": 25.699999999720603,
+     "p95": 40.200000000186265,
+     "max": 58.40000000037253,
+     "mean": 27.826966292151575
+    },
+    "before": {
+     "bestId": "DFL-OBJ-0026PM",
+     "bestProb": 0.945388338759613,
+     "bestGain": 0.0024165329558931276
+    },
+    "after": {
+     "bestId": "DFL-OBJ-J01B8N",
+     "bestProb": 0.8791961470506447,
+     "bestGain": -0.006591829339035245,
+     "whatIf": 1
+    }
+   }
+  ],
+  "summary": "what-if drag on a 2-core Intel Xeon Processor @ 2.90GHz sandbox (headless Chromium, 1 m grid, 7140 cells): worker compute median 14 ms (p95 27), pointer-to-surface round trip median 27 ms, p95 41 ms, max 47 ms over 89 recomputations; pass-value surface adds 4 ms; with 4\u00d7 CPU throttling the round trip is 106 ms median"
+ },
+ "passModel": {
+  "openPlayPasses": 881,
+  "completed": 723,
+  "failed": 158,
+  "meanP_completed": 0.713,
+  "meanP_failed": 0.203,
+  "meanControl_completed": 0.831,
+  "meanControl_failed": 0.369,
+  "calibration": [
+   {
+    "bin": "0.0\u20130.2",
+    "n": 193,
+    "completion": 0.518
+   },
+   {
+    "bin": "0.2\u20130.4",
+    "n": 69,
+    "completion": 0.536
+   },
+   {
+    "bin": "0.4\u20130.6",
+    "n": 86,
+    "completion": 0.767
+   },
+   {
+    "bin": "0.6\u20130.8",
+    "n": 98,
+    "completion": 0.898
+   },
+   {
+    "bin": "0.8\u20131.0",
+    "n": 435,
+    "completion": 0.993
+   }
+  ],
+  "summary": "881 open-play passes in this match: mean P at the actual end point 0.713 for completed vs 0.203 for failed passes; real completion rate by P bin: 0.0\u20130.2 \u2192 52% (n=193), 0.2\u20130.4 \u2192 54% (n=69), 0.4\u20130.6 \u2192 77% (n=86), 0.6\u20130.8 \u2192 90% (n=98), 0.8\u20131.0 \u2192 99% (n=435). P separates completed from failed passes and is monotone with the completion rate, but it under-predicts below 0.4 \u2014 a ranking score, not a calibrated probability"
+ },
+ "xt": {
+  "iterations": 48,
+  "pearson_r": 0.9984768077435859,
+  "mae": 0.0013636557061486117
+ }
+}

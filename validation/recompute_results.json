@@ -1,0 +1,5747 @@
+{
+ "ppda": {
+  "rows": [
+   {
+    "team": "home",
+    "scope": "match",
+    "py": {
+     "passes": 381,
+     "actions": 72,
+     "ppda": 5.291666666666667
+    },
+    "js": {
+     "passes": 381,
+     "actions": 72,
+     "ppda": 5.291666666666667
+    },
+    "match": true
+   },
+   {
+    "team": "home",
+    "scope": "half 1",
+    "py": {
+     "passes": 247,
+     "actions": 36,
+     "ppda": 6.861111111111111
+    },
+    "js": {
+     "passes": 247,
+     "actions": 36,
+     "ppda": 6.861111111111111
+    },
+    "match": true
+   },
+   {
+    "team": "home",
+    "scope": "half 2",
+    "py": {
+     "passes": 134,
+     "actions": 36,
+     "ppda": 3.7222222222222223
+    },
+    "js": {
+     "passes": 134,
+     "actions": 36,
+     "ppda": 3.7222222222222223
+    },
+    "match": true
+   },
+   {
+    "team": "away",
+    "scope": "match",
+    "py": {
+     "passes": 292,
+     "actions": 70,
+     "ppda": 4.171428571428572
+    },
+    "js": {
+     "passes": 292,
+     "actions": 70,
+     "ppda": 4.171428571428572
+    },
+    "match": true
+   },
+   {
+    "team": "away",
+    "scope": "half 1",
+    "py": {
+     "passes": 155,
+     "actions": 35,
+     "ppda": 4.428571428571429
+    },
+    "js": {
+     "passes": 155,
+     "actions": 35,
+     "ppda": 4.428571428571429
+    },
+    "match": true
+   },
+   {
+    "team": "away",
+    "scope": "half 2",
+    "py": {
+     "passes": 137,
+     "actions": 35,
+     "ppda": 3.914285714285714
+    },
+    "js": {
+     "passes": 137,
+     "actions": 35,
+     "ppda": 3.914285714285714
+    },
+    "match": true
+   }
+  ],
+  "rolling_windows": 388,
+  "rolling_mismatches": 0,
+  "definition": "opponent open-play passes starting >= 42 m from the pressing team's goal line / pressing team's tackles (player without ball control), interceptions and fouls in the same zone; events without coordinates use the tracked ball position"
+ },
+ "shape": {
+  "frames": 240,
+  "samePartition": 240,
+  "maxAbsDiff": {
+   "defensiveLineHeight": 0,
+   "length": 0,
+   "width": 0,
+   "hullArea": 4.547473508864641e-13
+  },
+  "rows": [
+   {
+    "period": 1,
+    "frame": 500,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     29.78,
+     29.78
+    ],
+    "length": [
+     29.78,
+     29.78
+    ],
+    "width": [
+     33.85,
+     33.85
+    ],
+    "hull": [
+     595.2,
+     595.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 500,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     52.79,
+     52.79
+    ],
+    "length": [
+     31.04,
+     31.04
+    ],
+    "width": [
+     26.74,
+     26.74
+    ],
+    "hull": [
+     513.3,
+     513.3
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 1207,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     43.42,
+     43.42
+    ],
+    "length": [
+     30.4,
+     30.4
+    ],
+    "width": [
+     38.16,
+     38.16
+    ],
+    "hull": [
+     842.8,
+     842.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 1207,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     28.78,
+     28.78
+    ],
+    "length": [
+     39.74,
+     39.74
+    ],
+    "width": [
+     59.66,
+     59.66
+    ],
+    "hull": [
+     1678.2,
+     1678.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 1914,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     38.97,
+     38.97
+    ],
+    "length": [
+     26.38,
+     26.38
+    ],
+    "width": [
+     43.6,
+     43.6
+    ],
+    "hull": [
+     735.4,
+     735.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 1914,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     33.31,
+     33.31
+    ],
+    "length": [
+     35.51,
+     35.51
+    ],
+    "width": [
+     60.74,
+     60.74
+    ],
+    "hull": [
+     1441.5,
+     1441.5
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 3328,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     53.41,
+     53.41
+    ],
+    "length": [
+     37.1,
+     37.1
+    ],
+    "width": [
+     44.3,
+     44.3
+    ],
+    "hull": [
+     1118.8,
+     1118.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 3328,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     14.49,
+     14.49
+    ],
+    "length": [
+     23.74,
+     23.74
+    ],
+    "width": [
+     40.26,
+     40.26
+    ],
+    "hull": [
+     655.9,
+     655.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 4035,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     42.01,
+     42.01
+    ],
+    "length": [
+     27.41,
+     27.41
+    ],
+    "width": [
+     42.56,
+     42.56
+    ],
+    "hull": [
+     841.2,
+     841.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 4035,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     28.76,
+     28.76
+    ],
+    "length": [
+     38.24,
+     38.24
+    ],
+    "width": [
+     60.05,
+     60.05
+    ],
+    "hull": [
+     1696.6,
+     1696.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 4742,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     17.22,
+     17.22
+    ],
+    "length": [
+     27.65,
+     27.65
+    ],
+    "width": [
+     29.09,
+     29.09
+    ],
+    "hull": [
+     562.2,
+     562.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 4742,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     59.96,
+     59.96
+    ],
+    "length": [
+     29.28,
+     29.28
+    ],
+    "width": [
+     41.83,
+     41.83
+    ],
+    "hull": [
+     848.0,
+     848.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 5449,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     42.24,
+     42.24
+    ],
+    "length": [
+     27.77,
+     27.77
+    ],
+    "width": [
+     40.46,
+     40.46
+    ],
+    "hull": [
+     780.7,
+     780.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 5449,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     32.32,
+     32.32
+    ],
+    "length": [
+     33.91,
+     33.91
+    ],
+    "width": [
+     53.54,
+     53.54
+    ],
+    "hull": [
+     1338.9,
+     1338.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 6863,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     28.31,
+     28.31
+    ],
+    "length": [
+     30.99,
+     30.99
+    ],
+    "width": [
+     30.05,
+     30.05
+    ],
+    "hull": [
+     621.1,
+     621.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 6863,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     46.91,
+     46.91
+    ],
+    "length": [
+     32.32,
+     32.32
+    ],
+    "width": [
+     41.23,
+     41.23
+    ],
+    "hull": [
+     1029.5,
+     1029.5
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 7570,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     8.12,
+     8.12
+    ],
+    "length": [
+     21.16,
+     21.16
+    ],
+    "width": [
+     33.09,
+     33.09
+    ],
+    "hull": [
+     413.8,
+     413.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 7570,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     76.28,
+     76.28
+    ],
+    "length": [
+     31.12,
+     31.12
+    ],
+    "width": [
+     44.1,
+     44.1
+    ],
+    "hull": [
+     789.9,
+     789.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 8277,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     34.22,
+     34.22
+    ],
+    "length": [
+     19.44,
+     19.44
+    ],
+    "width": [
+     42.62,
+     42.62
+    ],
+    "hull": [
+     696.2,
+     696.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 8277,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     44.95,
+     44.95
+    ],
+    "length": [
+     30.41,
+     30.41
+    ],
+    "width": [
+     61.19,
+     61.19
+    ],
+    "hull": [
+     1395.9,
+     1395.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 8984,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     23.68,
+     23.68
+    ],
+    "length": [
+     21.76,
+     21.76
+    ],
+    "width": [
+     38.73,
+     38.73
+    ],
+    "hull": [
+     667.8,
+     667.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 8984,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     54.98,
+     54.98
+    ],
+    "length": [
+     25.27,
+     25.27
+    ],
+    "width": [
+     56.21,
+     56.21
+    ],
+    "hull": [
+     1054.6,
+     1054.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 9691,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     28.87,
+     28.87
+    ],
+    "length": [
+     21.43,
+     21.43
+    ],
+    "width": [
+     41.19,
+     41.19
+    ],
+    "hull": [
+     715.6,
+     715.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 9691,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     46.15,
+     46.15
+    ],
+    "length": [
+     31.35,
+     31.35
+    ],
+    "width": [
+     52.61,
+     52.61
+    ],
+    "hull": [
+     1169.1,
+     1169.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 10398,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     25.81,
+     25.81
+    ],
+    "length": [
+     32.58,
+     32.58
+    ],
+    "width": [
+     33.83,
+     33.83
+    ],
+    "hull": [
+     686.1,
+     686.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 10398,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     54.49,
+     54.49
+    ],
+    "length": [
+     33.48,
+     33.48
+    ],
+    "width": [
+     36.01,
+     36.01
+    ],
+    "hull": [
+     781.7,
+     781.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 11105,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     46.06,
+     46.06
+    ],
+    "length": [
+     38.99,
+     38.99
+    ],
+    "width": [
+     38.13,
+     38.13
+    ],
+    "hull": [
+     1133.3,
+     1133.3
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 11105,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     21.38,
+     21.38
+    ],
+    "length": [
+     41.5,
+     41.5
+    ],
+    "width": [
+     49.53,
+     49.53
+    ],
+    "hull": [
+     1391.5,
+     1391.5
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 13226,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     36.54,
+     36.54
+    ],
+    "length": [
+     32.17,
+     32.17
+    ],
+    "width": [
+     54.53,
+     54.53
+    ],
+    "hull": [
+     1031.0,
+     1031.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 13226,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     35.83,
+     35.83
+    ],
+    "length": [
+     29.46,
+     29.46
+    ],
+    "width": [
+     32.67,
+     32.67
+    ],
+    "hull": [
+     484.8,
+     484.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 13933,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     17.41,
+     17.41
+    ],
+    "length": [
+     44.91,
+     44.91
+    ],
+    "width": [
+     62.68,
+     62.68
+    ],
+    "hull": [
+     2228.8,
+     2228.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 13933,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     52.39,
+     52.39
+    ],
+    "length": [
+     39.37,
+     39.37
+    ],
+    "width": [
+     49.74,
+     49.74
+    ],
+    "hull": [
+     1550.0,
+     1550.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 14640,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     28.18,
+     28.18
+    ],
+    "length": [
+     26.41,
+     26.41
+    ],
+    "width": [
+     33.97,
+     33.97
+    ],
+    "hull": [
+     653.9,
+     653.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 14640,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     49.44,
+     49.44
+    ],
+    "length": [
+     33.4,
+     33.4
+    ],
+    "width": [
+     53.12,
+     53.12
+    ],
+    "hull": [
+     1101.3,
+     1101.3
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 15347,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     40.54,
+     40.54
+    ],
+    "length": [
+     26.78,
+     26.78
+    ],
+    "width": [
+     40.21,
+     40.21
+    ],
+    "hull": [
+     911.6,
+     911.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 15347,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     30.05,
+     30.05
+    ],
+    "length": [
+     32.49,
+     32.49
+    ],
+    "width": [
+     53.37,
+     53.37
+    ],
+    "hull": [
+     1467.3,
+     1467.3
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 16054,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     32.67,
+     32.67
+    ],
+    "length": [
+     30.53,
+     30.53
+    ],
+    "width": [
+     39.82,
+     39.82
+    ],
+    "hull": [
+     921.8,
+     921.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 16054,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     45.51,
+     45.51
+    ],
+    "length": [
+     32.3,
+     32.3
+    ],
+    "width": [
+     31.14,
+     31.14
+    ],
+    "hull": [
+     733.6,
+     733.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 16761,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     22.38,
+     22.38
+    ],
+    "length": [
+     37.13,
+     37.13
+    ],
+    "width": [
+     67.15,
+     67.15
+    ],
+    "hull": [
+     1615.9,
+     1615.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 16761,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     48.66,
+     48.66
+    ],
+    "length": [
+     33.74,
+     33.74
+    ],
+    "width": [
+     38.21,
+     38.21
+    ],
+    "hull": [
+     858.5,
+     858.5
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 17468,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     28.29,
+     28.29
+    ],
+    "length": [
+     31.94,
+     31.94
+    ],
+    "width": [
+     66.47,
+     66.47
+    ],
+    "hull": [
+     1451.3,
+     1451.3
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 17468,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     50.28,
+     50.28
+    ],
+    "length": [
+     22.88,
+     22.88
+    ],
+    "width": [
+     42.03,
+     42.03
+    ],
+    "hull": [
+     771.2,
+     771.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 19589,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     44.27,
+     44.27
+    ],
+    "length": [
+     25.84,
+     25.84
+    ],
+    "width": [
+     35.52,
+     35.52
+    ],
+    "hull": [
+     706.1,
+     706.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 19589,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     34.58,
+     34.58
+    ],
+    "length": [
+     30.31,
+     30.31
+    ],
+    "width": [
+     54.06,
+     54.06
+    ],
+    "hull": [
+     1173.1,
+     1173.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 21003,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     48.13,
+     48.13
+    ],
+    "length": [
+     29.88,
+     29.88
+    ],
+    "width": [
+     63.26,
+     63.26
+    ],
+    "hull": [
+     1240.6,
+     1240.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 21003,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     30.78,
+     30.78
+    ],
+    "length": [
+     30.86,
+     30.86
+    ],
+    "width": [
+     36.05,
+     36.05
+    ],
+    "hull": [
+     727.1,
+     727.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 21710,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     61.26,
+     61.26
+    ],
+    "length": [
+     33.92,
+     33.92
+    ],
+    "width": [
+     37.21,
+     37.21
+    ],
+    "hull": [
+     840.7,
+     840.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 21710,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     16.98,
+     16.98
+    ],
+    "length": [
+     17.51,
+     17.51
+    ],
+    "width": [
+     29.76,
+     29.76
+    ],
+    "hull": [
+     357.3,
+     357.3
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 23831,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     47.66,
+     47.66
+    ],
+    "length": [
+     29.85,
+     29.85
+    ],
+    "width": [
+     37.69,
+     37.69
+    ],
+    "hull": [
+     765.0,
+     765.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 23831,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     24.56,
+     24.56
+    ],
+    "length": [
+     37.03,
+     37.03
+    ],
+    "width": [
+     40.07,
+     40.07
+    ],
+    "hull": [
+     1112.3,
+     1112.3
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 24538,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     38.12,
+     38.12
+    ],
+    "length": [
+     27.83,
+     27.83
+    ],
+    "width": [
+     37.0,
+     37.0
+    ],
+    "hull": [
+     786.0,
+     786.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 24538,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     39.51,
+     39.51
+    ],
+    "length": [
+     34.07,
+     34.07
+    ],
+    "width": [
+     56,
+     56.0
+    ],
+    "hull": [
+     1393.8,
+     1393.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 25952,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     2.9,
+     2.9
+    ],
+    "length": [
+     13.99,
+     13.99
+    ],
+    "width": [
+     16.75,
+     16.75
+    ],
+    "hull": [
+     161.1,
+     161.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 25952,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     74.69,
+     74.69
+    ],
+    "length": [
+     30.42,
+     30.42
+    ],
+    "width": [
+     39.5,
+     39.5
+    ],
+    "hull": [
+     526.6,
+     526.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 26659,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     46.03,
+     46.03
+    ],
+    "length": [
+     44.05,
+     44.05
+    ],
+    "width": [
+     43.14,
+     43.14
+    ],
+    "hull": [
+     1523.9,
+     1523.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 26659,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     17.06,
+     17.06
+    ],
+    "length": [
+     50.85,
+     50.85
+    ],
+    "width": [
+     51.87,
+     51.87
+    ],
+    "hull": [
+     1733.9,
+     1733.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 27366,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     16.34,
+     16.34
+    ],
+    "length": [
+     25.03,
+     25.03
+    ],
+    "width": [
+     19.62,
+     19.62
+    ],
+    "hull": [
+     348.0,
+     348.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 27366,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     57.53,
+     57.53
+    ],
+    "length": [
+     34.59,
+     34.59
+    ],
+    "width": [
+     33.08,
+     33.08
+    ],
+    "hull": [
+     1014.7,
+     1014.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 28073,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     34.93,
+     34.93
+    ],
+    "length": [
+     24.97,
+     24.97
+    ],
+    "width": [
+     36.15,
+     36.15
+    ],
+    "hull": [
+     651.0,
+     651.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 28073,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     38.79,
+     38.79
+    ],
+    "length": [
+     51.87,
+     51.87
+    ],
+    "width": [
+     51.91,
+     51.91
+    ],
+    "hull": [
+     1636.6,
+     1636.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 28780,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     38.84,
+     38.84
+    ],
+    "length": [
+     22.49,
+     22.49
+    ],
+    "width": [
+     42.16,
+     42.16
+    ],
+    "hull": [
+     795.6,
+     795.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 28780,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     39.9,
+     39.9
+    ],
+    "length": [
+     31.47,
+     31.47
+    ],
+    "width": [
+     57.86,
+     57.86
+    ],
+    "hull": [
+     1513.6,
+     1513.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 29487,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     15.85,
+     15.85
+    ],
+    "length": [
+     21.49,
+     21.49
+    ],
+    "width": [
+     26.51,
+     26.51
+    ],
+    "hull": [
+     477.7,
+     477.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 29487,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     61.3,
+     61.3
+    ],
+    "length": [
+     33.96,
+     33.96
+    ],
+    "width": [
+     36.27,
+     36.27
+    ],
+    "hull": [
+     825.6,
+     825.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 30194,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     11.72,
+     11.72
+    ],
+    "length": [
+     45.91,
+     45.91
+    ],
+    "width": [
+     58.73,
+     58.73
+    ],
+    "hull": [
+     1726.4,
+     1726.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 30194,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     51.65,
+     51.65
+    ],
+    "length": [
+     38.98,
+     38.98
+    ],
+    "width": [
+     44.8,
+     44.8
+    ],
+    "hull": [
+     1081.2,
+     1081.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 31608,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     56.72,
+     56.72
+    ],
+    "length": [
+     45.6,
+     45.6
+    ],
+    "width": [
+     39.63,
+     39.63
+    ],
+    "hull": [
+     1312.7,
+     1312.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 31608,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     11.15,
+     11.15
+    ],
+    "length": [
+     46.55,
+     46.55
+    ],
+    "width": [
+     25.77,
+     25.77
+    ],
+    "hull": [
+     645.2,
+     645.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 32315,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     47.01,
+     47.01
+    ],
+    "length": [
+     32.44,
+     32.44
+    ],
+    "width": [
+     45.38,
+     45.38
+    ],
+    "hull": [
+     1096.5,
+     1096.5
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 32315,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     25.58,
+     25.58
+    ],
+    "length": [
+     39.59,
+     39.59
+    ],
+    "width": [
+     52.99,
+     52.99
+    ],
+    "hull": [
+     1656.8,
+     1656.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 33022,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     30.67,
+     30.67
+    ],
+    "length": [
+     29.94,
+     29.94
+    ],
+    "width": [
+     39.88,
+     39.88
+    ],
+    "hull": [
+     593.8,
+     593.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 33022,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     45.96,
+     45.96
+    ],
+    "length": [
+     30,
+     30.0
+    ],
+    "width": [
+     49.1,
+     49.1
+    ],
+    "hull": [
+     1006.6,
+     1006.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 33729,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     47.99,
+     47.99
+    ],
+    "length": [
+     40.8,
+     40.8
+    ],
+    "width": [
+     35.53,
+     35.53
+    ],
+    "hull": [
+     998.0,
+     998.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 33729,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     20.89,
+     20.89
+    ],
+    "length": [
+     41.23,
+     41.23
+    ],
+    "width": [
+     42.9,
+     42.9
+    ],
+    "hull": [
+     1241.0,
+     1241.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 35143,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     30.75,
+     30.75
+    ],
+    "length": [
+     27.25,
+     27.25
+    ],
+    "width": [
+     29.39,
+     29.39
+    ],
+    "hull": [
+     451.7,
+     451.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 35143,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     44.79,
+     44.79
+    ],
+    "length": [
+     32.16,
+     32.16
+    ],
+    "width": [
+     47.08,
+     47.08
+    ],
+    "hull": [
+     1115.9,
+     1115.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 38678,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     49.56,
+     49.56
+    ],
+    "length": [
+     49.59,
+     49.59
+    ],
+    "width": [
+     36.27,
+     36.27
+    ],
+    "hull": [
+     1258.4,
+     1258.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 38678,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     12.26,
+     12.26
+    ],
+    "length": [
+     51.76,
+     51.76
+    ],
+    "width": [
+     45.45,
+     45.45
+    ],
+    "hull": [
+     1858.4,
+     1858.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 39385,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     55.9,
+     55.9
+    ],
+    "length": [
+     34.48,
+     34.48
+    ],
+    "width": [
+     50.18,
+     50.18
+    ],
+    "hull": [
+     1021.2,
+     1021.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 39385,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     17.83,
+     17.83
+    ],
+    "length": [
+     27.02,
+     27.02
+    ],
+    "width": [
+     28.01,
+     28.01
+    ],
+    "hull": [
+     657.7,
+     657.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 40092,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     66.68,
+     66.68
+    ],
+    "length": [
+     43.43,
+     43.43
+    ],
+    "width": [
+     42.06,
+     42.06
+    ],
+    "hull": [
+     1171.2,
+     1171.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 40092,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     5.88,
+     5.88
+    ],
+    "length": [
+     27.42,
+     27.42
+    ],
+    "width": [
+     37.49,
+     37.49
+    ],
+    "hull": [
+     557.9,
+     557.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 41506,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     41.04,
+     41.04
+    ],
+    "length": [
+     35.42,
+     35.42
+    ],
+    "width": [
+     32.75,
+     32.75
+    ],
+    "hull": [
+     768.7,
+     768.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 41506,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     38.04,
+     38.04
+    ],
+    "length": [
+     36.65,
+     36.65
+    ],
+    "width": [
+     39.82,
+     39.82
+    ],
+    "hull": [
+     931.7,
+     931.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 42213,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     46.64,
+     46.64
+    ],
+    "length": [
+     44.95,
+     44.95
+    ],
+    "width": [
+     37.23,
+     37.23
+    ],
+    "hull": [
+     1090.2,
+     1090.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 42213,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     25.38,
+     25.38
+    ],
+    "length": [
+     48.93,
+     48.93
+    ],
+    "width": [
+     41.44,
+     41.44
+    ],
+    "hull": [
+     1533.2,
+     1533.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 42920,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     42.4,
+     42.4
+    ],
+    "length": [
+     32.3,
+     32.3
+    ],
+    "width": [
+     36.53,
+     36.53
+    ],
+    "hull": [
+     914.4,
+     914.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 42920,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     25.64,
+     25.64
+    ],
+    "length": [
+     41.7,
+     41.7
+    ],
+    "width": [
+     58.6,
+     58.6
+    ],
+    "hull": [
+     1643.4,
+     1643.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 43627,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     12.73,
+     12.73
+    ],
+    "length": [
+     46.92,
+     46.92
+    ],
+    "width": [
+     49.07,
+     49.07
+    ],
+    "hull": [
+     1334.1,
+     1334.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 43627,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     50.82,
+     50.82
+    ],
+    "length": [
+     38.35,
+     38.35
+    ],
+    "width": [
+     32.47,
+     32.47
+    ],
+    "hull": [
+     975.6,
+     975.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 44334,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     43.98,
+     43.98
+    ],
+    "length": [
+     32.27,
+     32.27
+    ],
+    "width": [
+     39.74,
+     39.74
+    ],
+    "hull": [
+     718.4,
+     718.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 44334,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     30.44,
+     30.44
+    ],
+    "length": [
+     36.7,
+     36.7
+    ],
+    "width": [
+     48.08,
+     48.08
+    ],
+    "hull": [
+     1120.8,
+     1120.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 45041,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     15.55,
+     15.55
+    ],
+    "length": [
+     46.66,
+     46.66
+    ],
+    "width": [
+     52.08,
+     52.08
+    ],
+    "hull": [
+     1327.2,
+     1327.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 45041,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     51.33,
+     51.33
+    ],
+    "length": [
+     44.87,
+     44.87
+    ],
+    "width": [
+     37.92,
+     37.92
+    ],
+    "hull": [
+     1180.7,
+     1180.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 46455,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     36.91,
+     36.91
+    ],
+    "length": [
+     43.45,
+     43.45
+    ],
+    "width": [
+     45.3,
+     45.3
+    ],
+    "hull": [
+     1242.4,
+     1242.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 46455,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     36.43,
+     36.43
+    ],
+    "length": [
+     33.54,
+     33.54
+    ],
+    "width": [
+     37.64,
+     37.64
+    ],
+    "hull": [
+     1013.8,
+     1013.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 47162,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     21.58,
+     21.58
+    ],
+    "length": [
+     36.27,
+     36.27
+    ],
+    "width": [
+     36.8,
+     36.8
+    ],
+    "hull": [
+     816.2,
+     816.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 47162,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     53.45,
+     53.45
+    ],
+    "length": [
+     38.84,
+     38.84
+    ],
+    "width": [
+     32.92,
+     32.92
+    ],
+    "hull": [
+     839.2,
+     839.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 48576,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     28.21,
+     28.21
+    ],
+    "length": [
+     41.73,
+     41.73
+    ],
+    "width": [
+     30.63,
+     30.63
+    ],
+    "hull": [
+     1114.3,
+     1114.3
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 48576,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     40.6,
+     40.6
+    ],
+    "length": [
+     49.44,
+     49.44
+    ],
+    "width": [
+     30.19,
+     30.19
+    ],
+    "hull": [
+     944.5,
+     944.5
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 49283,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     40.95,
+     40.95
+    ],
+    "length": [
+     30.64,
+     30.64
+    ],
+    "width": [
+     38.72,
+     38.72
+    ],
+    "hull": [
+     865.4,
+     865.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 49283,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     25.29,
+     25.29
+    ],
+    "length": [
+     42.25,
+     42.25
+    ],
+    "width": [
+     54.71,
+     54.71
+    ],
+    "hull": [
+     1760.7,
+     1760.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 49990,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     12.92,
+     12.92
+    ],
+    "length": [
+     41.56,
+     41.56
+    ],
+    "width": [
+     39.21,
+     39.21
+    ],
+    "hull": [
+     980.2,
+     980.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 49990,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     53.41,
+     53.41
+    ],
+    "length": [
+     46.55,
+     46.55
+    ],
+    "width": [
+     44.38,
+     44.38
+    ],
+    "hull": [
+     1207.0,
+     1207.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 50697,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     22.6,
+     22.6
+    ],
+    "length": [
+     36.44,
+     36.44
+    ],
+    "width": [
+     63.73,
+     63.73
+    ],
+    "hull": [
+     1590.1,
+     1590.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 50697,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     46.47,
+     46.47
+    ],
+    "length": [
+     36.3,
+     36.3
+    ],
+    "width": [
+     47.43,
+     47.43
+    ],
+    "hull": [
+     1150.5,
+     1150.5
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 52111,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     41.05,
+     41.05
+    ],
+    "length": [
+     31.46,
+     31.46
+    ],
+    "width": [
+     33.8,
+     33.8
+    ],
+    "hull": [
+     509.3,
+     509.3
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 52111,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     33.77,
+     33.77
+    ],
+    "length": [
+     33.38,
+     33.38
+    ],
+    "width": [
+     36.46,
+     36.46
+    ],
+    "hull": [
+     840.0,
+     840.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 52818,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     34.89,
+     34.89
+    ],
+    "length": [
+     34.34,
+     34.34
+    ],
+    "width": [
+     66.68,
+     66.68
+    ],
+    "hull": [
+     1503.4,
+     1503.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 52818,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     39.98,
+     39.98
+    ],
+    "length": [
+     29.15,
+     29.15
+    ],
+    "width": [
+     37.29,
+     37.29
+    ],
+    "hull": [
+     739.3,
+     739.3
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 53525,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     30.49,
+     30.49
+    ],
+    "length": [
+     35.41,
+     35.41
+    ],
+    "width": [
+     64.34,
+     64.34
+    ],
+    "hull": [
+     1580.9,
+     1580.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 53525,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     42.77,
+     42.77
+    ],
+    "length": [
+     24.81,
+     24.81
+    ],
+    "width": [
+     40.16,
+     40.16
+    ],
+    "hull": [
+     763.4,
+     763.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 54939,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     49.27,
+     49.27
+    ],
+    "length": [
+     38.05,
+     38.05
+    ],
+    "width": [
+     39.73,
+     39.73
+    ],
+    "hull": [
+     1195.2,
+     1195.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 54939,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     18.72,
+     18.72
+    ],
+    "length": [
+     42.65,
+     42.65
+    ],
+    "width": [
+     59.46,
+     59.46
+    ],
+    "hull": [
+     2228.7,
+     2228.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 55646,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     42.26,
+     42.26
+    ],
+    "length": [
+     34.07,
+     34.07
+    ],
+    "width": [
+     36.34,
+     36.34
+    ],
+    "hull": [
+     891.1,
+     891.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 55646,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     30.78,
+     30.78
+    ],
+    "length": [
+     41.0,
+     41.0
+    ],
+    "width": [
+     46.26,
+     46.26
+    ],
+    "hull": [
+     1553.6,
+     1553.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 56353,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     48.14,
+     48.14
+    ],
+    "length": [
+     31.79,
+     31.79
+    ],
+    "width": [
+     41.37,
+     41.37
+    ],
+    "hull": [
+     956.9,
+     956.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 56353,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     20.16,
+     20.16
+    ],
+    "length": [
+     38.77,
+     38.77
+    ],
+    "width": [
+     57.24,
+     57.24
+    ],
+    "hull": [
+     1946.9,
+     1946.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 57060,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     39.78,
+     39.78
+    ],
+    "length": [
+     33.78,
+     33.78
+    ],
+    "width": [
+     48.37,
+     48.37
+    ],
+    "hull": [
+     1014.3,
+     1014.3
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 57060,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     31.45,
+     31.45
+    ],
+    "length": [
+     33.71,
+     33.71
+    ],
+    "width": [
+     33.88,
+     33.88
+    ],
+    "hull": [
+     725.2,
+     725.2
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 57767,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     49.76,
+     49.76
+    ],
+    "length": [
+     35.21,
+     35.21
+    ],
+    "width": [
+     59.75,
+     59.75
+    ],
+    "hull": [
+     1315.9,
+     1315.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 57767,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     26.29,
+     26.29
+    ],
+    "length": [
+     26.58,
+     26.58
+    ],
+    "width": [
+     37.67,
+     37.67
+    ],
+    "hull": [
+     787.9,
+     787.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 58474,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     54.08,
+     54.08
+    ],
+    "length": [
+     35.57,
+     35.57
+    ],
+    "width": [
+     58.26,
+     58.26
+    ],
+    "hull": [
+     1346.1,
+     1346.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 58474,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     23.66,
+     23.66
+    ],
+    "length": [
+     27.05,
+     27.05
+    ],
+    "width": [
+     39.32,
+     39.32
+    ],
+    "hull": [
+     764.7,
+     764.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 60595,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     59.04,
+     59.04
+    ],
+    "length": [
+     35.88,
+     35.88
+    ],
+    "width": [
+     39.64,
+     39.64
+    ],
+    "hull": [
+     891.6,
+     891.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 60595,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     10.81,
+     10.81
+    ],
+    "length": [
+     30.86,
+     30.86
+    ],
+    "width": [
+     39.67,
+     39.67
+    ],
+    "hull": [
+     662.9,
+     662.9
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 62716,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     41.32,
+     41.32
+    ],
+    "length": [
+     38.31,
+     38.31
+    ],
+    "width": [
+     30.37,
+     30.37
+    ],
+    "hull": [
+     910.6,
+     910.6
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 62716,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     31.21,
+     31.21
+    ],
+    "length": [
+     33.38,
+     33.38
+    ],
+    "width": [
+     34.87,
+     34.87
+    ],
+    "hull": [
+     782.5,
+     782.5
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 63423,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     40.12,
+     40.12
+    ],
+    "length": [
+     36.18,
+     36.18
+    ],
+    "width": [
+     38.52,
+     38.52
+    ],
+    "hull": [
+     1016.0,
+     1016.0
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 63423,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     29.08,
+     29.08
+    ],
+    "length": [
+     43.47,
+     43.47
+    ],
+    "width": [
+     48.58,
+     48.58
+    ],
+    "hull": [
+     1505.5,
+     1505.5
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 64130,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     19.58,
+     19.58
+    ],
+    "length": [
+     20.3,
+     20.3
+    ],
+    "width": [
+     43.29,
+     43.29
+    ],
+    "hull": [
+     590.5,
+     590.5
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 64130,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     60.22,
+     60.22
+    ],
+    "length": [
+     25.32,
+     25.32
+    ],
+    "width": [
+     55.48,
+     55.48
+    ],
+    "hull": [
+     917.1,
+     917.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 64837,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     24.86,
+     24.86
+    ],
+    "length": [
+     24.25,
+     24.25
+    ],
+    "width": [
+     37.76,
+     37.76
+    ],
+    "hull": [
+     640.4,
+     640.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 64837,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     52.95,
+     52.95
+    ],
+    "length": [
+     26.82,
+     26.82
+    ],
+    "width": [
+     60.47,
+     60.47
+    ],
+    "hull": [
+     1096.8,
+     1096.8
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 66251,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     11.94,
+     11.94
+    ],
+    "length": [
+     43.64,
+     43.64
+    ],
+    "width": [
+     30.15,
+     30.15
+    ],
+    "hull": [
+     962.4,
+     962.4
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 66251,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     52.8,
+     52.8
+    ],
+    "length": [
+     47.01,
+     47.01
+    ],
+    "width": [
+     35.28,
+     35.28
+    ],
+    "hull": [
+     1154.1,
+     1154.1
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 70493,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     32.34,
+     32.34
+    ],
+    "length": [
+     36.63,
+     36.63
+    ],
+    "width": [
+     48.71,
+     48.71
+    ],
+    "hull": [
+     1199.7,
+     1199.7
+    ]
+   },
+   {
+    "period": 1,
+    "frame": 70493,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     42.7,
+     42.7
+    ],
+    "length": [
+     29.57,
+     29.57
+    ],
+    "width": [
+     38.03,
+     38.03
+    ],
+    "hull": [
+     759.1,
+     759.1
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 2756,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     22.11,
+     22.11
+    ],
+    "length": [
+     42.93,
+     42.93
+    ],
+    "width": [
+     54.79,
+     54.79
+    ],
+    "hull": [
+     1656.5,
+     1656.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 2756,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     45.58,
+     45.58
+    ],
+    "length": [
+     37.42,
+     37.42
+    ],
+    "width": [
+     41.81,
+     41.81
+    ],
+    "hull": [
+     1118.8,
+     1118.8
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 3508,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     19.71,
+     19.71
+    ],
+    "length": [
+     35.8,
+     35.8
+    ],
+    "width": [
+     28.99,
+     28.99
+    ],
+    "hull": [
+     609.3,
+     609.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 3508,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     54.79,
+     54.79
+    ],
+    "length": [
+     38.19,
+     38.19
+    ],
+    "width": [
+     44.82,
+     44.82
+    ],
+    "hull": [
+     1127.7,
+     1127.7
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 4260,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     23.35,
+     23.35
+    ],
+    "length": [
+     29.32,
+     29.32
+    ],
+    "width": [
+     35.57,
+     35.57
+    ],
+    "hull": [
+     746.5,
+     746.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 4260,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     54.84,
+     54.84
+    ],
+    "length": [
+     32.06,
+     32.06
+    ],
+    "width": [
+     42.83,
+     42.83
+    ],
+    "hull": [
+     977.7,
+     977.7
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 5012,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     43.4,
+     43.4
+    ],
+    "length": [
+     28.79,
+     28.79
+    ],
+    "width": [
+     41.04,
+     41.04
+    ],
+    "hull": [
+     987.5,
+     987.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 5012,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     27.41,
+     27.41
+    ],
+    "length": [
+     40.77,
+     40.77
+    ],
+    "width": [
+     48.15,
+     48.15
+    ],
+    "hull": [
+     1436.5,
+     1436.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 5764,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     18.07,
+     18.07
+    ],
+    "length": [
+     40.27,
+     40.27
+    ],
+    "width": [
+     55.88,
+     55.88
+    ],
+    "hull": [
+     1751.4,
+     1751.4
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 5764,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     50.99,
+     50.99
+    ],
+    "length": [
+     35.6,
+     35.6
+    ],
+    "width": [
+     42.75,
+     42.75
+    ],
+    "hull": [
+     1135.5,
+     1135.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 6516,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     58.24,
+     58.24
+    ],
+    "length": [
+     37.92,
+     37.92
+    ],
+    "width": [
+     50.9,
+     50.9
+    ],
+    "hull": [
+     1296.3,
+     1296.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 6516,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     14.89,
+     14.89
+    ],
+    "length": [
+     34.89,
+     34.89
+    ],
+    "width": [
+     36.48,
+     36.48
+    ],
+    "hull": [
+     787.0,
+     787.0
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 7268,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     52.31,
+     52.31
+    ],
+    "length": [
+     31.53,
+     31.53
+    ],
+    "width": [
+     41.87,
+     41.87
+    ],
+    "hull": [
+     992.2,
+     992.2
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 7268,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     22.47,
+     22.47
+    ],
+    "length": [
+     23.79,
+     23.79
+    ],
+    "width": [
+     32.58,
+     32.58
+    ],
+    "hull": [
+     540.0,
+     540.0
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 8772,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     73.49,
+     73.49
+    ],
+    "length": [
+     26.62,
+     26.62
+    ],
+    "width": [
+     36.45,
+     36.45
+    ],
+    "hull": [
+     531.3,
+     531.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 8772,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     5.21,
+     5.21
+    ],
+    "length": [
+     11.97,
+     11.97
+    ],
+    "width": [
+     18.92,
+     18.92
+    ],
+    "hull": [
+     133.8,
+     133.8
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 9524,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     46.04,
+     46.04
+    ],
+    "length": [
+     48.78,
+     48.78
+    ],
+    "width": [
+     37.43,
+     37.43
+    ],
+    "hull": [
+     1162.5,
+     1162.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 9524,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     26.52,
+     26.52
+    ],
+    "length": [
+     45.58,
+     45.58
+    ],
+    "width": [
+     38.78,
+     38.78
+    ],
+    "hull": [
+     1192.6,
+     1192.6
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 12532,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     39.26,
+     39.26
+    ],
+    "length": [
+     39.76,
+     39.76
+    ],
+    "width": [
+     36.63,
+     36.63
+    ],
+    "hull": [
+     1106.4,
+     1106.4
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 12532,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     28.74,
+     28.74
+    ],
+    "length": [
+     44.51,
+     44.51
+    ],
+    "width": [
+     56.82,
+     56.82
+    ],
+    "hull": [
+     1859.1,
+     1859.1
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 13284,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     37.71,
+     37.71
+    ],
+    "length": [
+     27.76,
+     27.76
+    ],
+    "width": [
+     37.48,
+     37.48
+    ],
+    "hull": [
+     771.5,
+     771.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 13284,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     44.86,
+     44.86
+    ],
+    "length": [
+     31.54,
+     31.54
+    ],
+    "width": [
+     62.16,
+     62.16
+    ],
+    "hull": [
+     1242.2,
+     1242.2
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 14788,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     40.55,
+     40.55
+    ],
+    "length": [
+     30.84,
+     30.84
+    ],
+    "width": [
+     55.65,
+     55.65
+    ],
+    "hull": [
+     1211.2,
+     1211.2
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 14788,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     38.77,
+     38.77
+    ],
+    "length": [
+     25.58,
+     25.58
+    ],
+    "width": [
+     39.21,
+     39.21
+    ],
+    "hull": [
+     764.8,
+     764.8
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 17044,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     25.27,
+     25.27
+    ],
+    "length": [
+     39.57,
+     39.57
+    ],
+    "width": [
+     55.87,
+     55.87
+    ],
+    "hull": [
+     1586.5,
+     1586.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 17044,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     45.14,
+     45.14
+    ],
+    "length": [
+     35.01,
+     35.01
+    ],
+    "width": [
+     44.13,
+     44.13
+    ],
+    "hull": [
+     1114.3,
+     1114.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 18548,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     13.53,
+     13.53
+    ],
+    "length": [
+     51.66,
+     51.66
+    ],
+    "width": [
+     47.6,
+     47.6
+    ],
+    "hull": [
+     1549.0,
+     1549.0
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 18548,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     57.47,
+     57.47
+    ],
+    "length": [
+     53.74,
+     53.74
+    ],
+    "width": [
+     38.54,
+     38.54
+    ],
+    "hull": [
+     1381.5,
+     1381.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 19300,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     43.34,
+     43.34
+    ],
+    "length": [
+     30.68,
+     30.68
+    ],
+    "width": [
+     41.8,
+     41.8
+    ],
+    "hull": [
+     639.8,
+     639.8
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 19300,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     34.06,
+     34.06
+    ],
+    "length": [
+     31.44,
+     31.44
+    ],
+    "width": [
+     40.83,
+     40.83
+    ],
+    "hull": [
+     747.3,
+     747.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 20052,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     63.23,
+     63.23
+    ],
+    "length": [
+     39.76,
+     39.76
+    ],
+    "width": [
+     42.5,
+     42.5
+    ],
+    "hull": [
+     1098.5,
+     1098.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 20052,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     10.61,
+     10.61
+    ],
+    "length": [
+     27.67,
+     27.67
+    ],
+    "width": [
+     36.44,
+     36.44
+    ],
+    "hull": [
+     562.3,
+     562.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 21556,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     74.57,
+     74.57
+    ],
+    "length": [
+     28.85,
+     28.85
+    ],
+    "width": [
+     42.07,
+     42.07
+    ],
+    "hull": [
+     550.8,
+     550.8
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 21556,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     4.15,
+     4.15
+    ],
+    "length": [
+     12.69,
+     12.69
+    ],
+    "width": [
+     14.49,
+     14.49
+    ],
+    "hull": [
+     97.7,
+     97.7
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 22308,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     66.06,
+     66.06
+    ],
+    "length": [
+     28.5,
+     28.5
+    ],
+    "width": [
+     40.54,
+     40.54
+    ],
+    "hull": [
+     576.6,
+     576.6
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 22308,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     12.6,
+     12.6
+    ],
+    "length": [
+     17.79,
+     17.79
+    ],
+    "width": [
+     17.63,
+     17.63
+    ],
+    "hull": [
+     211.5,
+     211.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 23060,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     23.46,
+     23.46
+    ],
+    "length": [
+     43.32,
+     43.32
+    ],
+    "width": [
+     37.06,
+     37.06
+    ],
+    "hull": [
+     961.8,
+     961.8
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 23060,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     45.45,
+     45.45
+    ],
+    "length": [
+     26.85,
+     26.85
+    ],
+    "width": [
+     38.03,
+     38.03
+    ],
+    "hull": [
+     717.7,
+     717.7
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 23812,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     39.74,
+     39.74
+    ],
+    "length": [
+     38.44,
+     38.44
+    ],
+    "width": [
+     57.05,
+     57.05
+    ],
+    "hull": [
+     1424.1,
+     1424.1
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 23812,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     30.49,
+     30.49
+    ],
+    "length": [
+     41.94,
+     41.94
+    ],
+    "width": [
+     44.75,
+     44.75
+    ],
+    "hull": [
+     1210.9,
+     1210.9
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 26068,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     46.62,
+     46.62
+    ],
+    "length": [
+     38.57,
+     38.57
+    ],
+    "width": [
+     53.15,
+     53.15
+    ],
+    "hull": [
+     1397.9,
+     1397.9
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 26068,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     26.76,
+     26.76
+    ],
+    "length": [
+     31.5,
+     31.5
+    ],
+    "width": [
+     32.86,
+     32.86
+    ],
+    "hull": [
+     653.5,
+     653.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 26820,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     40.25,
+     40.25
+    ],
+    "length": [
+     35.44,
+     35.44
+    ],
+    "width": [
+     49.56,
+     49.56
+    ],
+    "hull": [
+     1078.6,
+     1078.6
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 26820,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     30.96,
+     30.96
+    ],
+    "length": [
+     34.52,
+     34.52
+    ],
+    "width": [
+     52.45,
+     52.45
+    ],
+    "hull": [
+     1266.9,
+     1266.9
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 28324,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     28.32,
+     28.32
+    ],
+    "length": [
+     36.14,
+     36.14
+    ],
+    "width": [
+     33.73,
+     33.73
+    ],
+    "hull": [
+     742.1,
+     742.1
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 28324,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     41.73,
+     41.73
+    ],
+    "length": [
+     30.66,
+     30.66
+    ],
+    "width": [
+     54.73,
+     54.73
+    ],
+    "hull": [
+     1200.4,
+     1200.4
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 29076,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     60.05,
+     60.05
+    ],
+    "length": [
+     37.28,
+     37.28
+    ],
+    "width": [
+     53.25,
+     53.25
+    ],
+    "hull": [
+     1246.4,
+     1246.4
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 29076,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     10.61,
+     10.61
+    ],
+    "length": [
+     19.25,
+     19.25
+    ],
+    "width": [
+     33.12,
+     33.12
+    ],
+    "hull": [
+     473.5,
+     473.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 31332,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     47.2,
+     47.2
+    ],
+    "length": [
+     27.91,
+     27.91
+    ],
+    "width": [
+     34.1,
+     34.1
+    ],
+    "hull": [
+     520.6,
+     520.6
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 31332,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     31.48,
+     31.48
+    ],
+    "length": [
+     25.51,
+     25.51
+    ],
+    "width": [
+     42.78,
+     42.78
+    ],
+    "hull": [
+     693.0,
+     693.0
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 32084,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     28.95,
+     28.95
+    ],
+    "length": [
+     33.96,
+     33.96
+    ],
+    "width": [
+     39.16,
+     39.16
+    ],
+    "hull": [
+     707.6,
+     707.6
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 32084,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     48.58,
+     48.58
+    ],
+    "length": [
+     31.05,
+     31.05
+    ],
+    "width": [
+     38.37,
+     38.37
+    ],
+    "hull": [
+     699.5,
+     699.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 33588,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     25.06,
+     25.06
+    ],
+    "length": [
+     36.92,
+     36.92
+    ],
+    "width": [
+     61.18,
+     61.18
+    ],
+    "hull": [
+     1411.3,
+     1411.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 33588,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     46.75,
+     46.75
+    ],
+    "length": [
+     25.68,
+     25.68
+    ],
+    "width": [
+     38.21,
+     38.21
+    ],
+    "hull": [
+     687.4,
+     687.4
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 35092,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     3.86,
+     3.86
+    ],
+    "length": [
+     18.8,
+     18.8
+    ],
+    "width": [
+     12.74,
+     12.74
+    ],
+    "hull": [
+     177.9,
+     177.9
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 35092,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     75.85,
+     75.85
+    ],
+    "length": [
+     25.04,
+     25.04
+    ],
+    "width": [
+     37.33,
+     37.33
+    ],
+    "hull": [
+     552.3,
+     552.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 35844,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     37.76,
+     37.76
+    ],
+    "length": [
+     38.55,
+     38.55
+    ],
+    "width": [
+     29.84,
+     29.84
+    ],
+    "hull": [
+     853.3,
+     853.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 35844,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     37.43,
+     37.43
+    ],
+    "length": [
+     45.65,
+     45.65
+    ],
+    "width": [
+     48.04,
+     48.04
+    ],
+    "hull": [
+     1366.6,
+     1366.6
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 39604,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     30.39,
+     30.39
+    ],
+    "length": [
+     30.86,
+     30.86
+    ],
+    "width": [
+     27.04,
+     27.04
+    ],
+    "hull": [
+     538.9,
+     538.9
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 39604,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     42.67,
+     42.67
+    ],
+    "length": [
+     33.67,
+     33.67
+    ],
+    "width": [
+     46.26,
+     46.26
+    ],
+    "hull": [
+     1135.5,
+     1135.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 41860,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     32.16,
+     32.16
+    ],
+    "length": [
+     36.08,
+     36.08
+    ],
+    "width": [
+     28.46,
+     28.46
+    ],
+    "hull": [
+     622.9,
+     622.9
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 41860,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     42.36,
+     42.36
+    ],
+    "length": [
+     40.03,
+     40.03
+    ],
+    "width": [
+     33.49,
+     33.49
+    ],
+    "hull": [
+     851.7,
+     851.7
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 43364,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     50.38,
+     50.38
+    ],
+    "length": [
+     34.64,
+     34.64
+    ],
+    "width": [
+     34.98,
+     34.98
+    ],
+    "hull": [
+     971.1,
+     971.1
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 43364,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     12.64,
+     12.64
+    ],
+    "length": [
+     43.62,
+     43.62
+    ],
+    "width": [
+     57.43,
+     57.43
+    ],
+    "hull": [
+     1520.8,
+     1520.8
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 44116,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     25.28,
+     25.28
+    ],
+    "length": [
+     41.62,
+     41.62
+    ],
+    "width": [
+     59.92,
+     59.92
+    ],
+    "hull": [
+     1581.6,
+     1581.6
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 44116,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     44.21,
+     44.21
+    ],
+    "length": [
+     35.5,
+     35.5
+    ],
+    "width": [
+     39.84,
+     39.84
+    ],
+    "hull": [
+     1158.0,
+     1158.0
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 45620,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     51.43,
+     51.43
+    ],
+    "length": [
+     36.77,
+     36.77
+    ],
+    "width": [
+     46.9,
+     46.9
+    ],
+    "hull": [
+     1159.8,
+     1159.8
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 45620,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     20.12,
+     20.12
+    ],
+    "length": [
+     33.59,
+     33.59
+    ],
+    "width": [
+     32.42,
+     32.42
+    ],
+    "hull": [
+     633.9,
+     633.9
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 47876,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     19.15,
+     19.15
+    ],
+    "length": [
+     36.45,
+     36.45
+    ],
+    "width": [
+     55.65,
+     55.65
+    ],
+    "hull": [
+     1274.7,
+     1274.7
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 47876,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     51.54,
+     51.54
+    ],
+    "length": [
+     40.92,
+     40.92
+    ],
+    "width": [
+     38.86,
+     38.86
+    ],
+    "hull": [
+     1151.8,
+     1151.8
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 48628,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     17.97,
+     17.97
+    ],
+    "length": [
+     40.54,
+     40.54
+    ],
+    "width": [
+     56.52,
+     56.52
+    ],
+    "hull": [
+     1496.0,
+     1496.0
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 48628,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     47.66,
+     47.66
+    ],
+    "length": [
+     38.33,
+     38.33
+    ],
+    "width": [
+     42.54,
+     42.54
+    ],
+    "hull": [
+     1204.1,
+     1204.1
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 55396,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     40.84,
+     40.84
+    ],
+    "length": [
+     35.54,
+     35.54
+    ],
+    "width": [
+     42.51,
+     42.51
+    ],
+    "hull": [
+     1122.2,
+     1122.2
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 55396,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     24.12,
+     24.12
+    ],
+    "length": [
+     42.89,
+     42.89
+    ],
+    "width": [
+     60.43,
+     60.43
+    ],
+    "hull": [
+     1733.7,
+     1733.7
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 56148,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     41.59,
+     41.59
+    ],
+    "length": [
+     37.05,
+     37.05
+    ],
+    "width": [
+     36.84,
+     36.84
+    ],
+    "hull": [
+     882.0,
+     882.0
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 56148,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     31.47,
+     31.47
+    ],
+    "length": [
+     36.93,
+     36.93
+    ],
+    "width": [
+     54.9,
+     54.9
+    ],
+    "hull": [
+     1304.5,
+     1304.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 56900,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     40.2,
+     40.2
+    ],
+    "length": [
+     39.67,
+     39.67
+    ],
+    "width": [
+     37.99,
+     37.99
+    ],
+    "hull": [
+     948.6,
+     948.6
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 56900,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     35.45,
+     35.45
+    ],
+    "length": [
+     39.45,
+     39.45
+    ],
+    "width": [
+     47.55,
+     47.55
+    ],
+    "hull": [
+     1373.7,
+     1373.7
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 57652,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     31.12,
+     31.12
+    ],
+    "length": [
+     27.79,
+     27.79
+    ],
+    "width": [
+     39.22,
+     39.22
+    ],
+    "hull": [
+     778.5,
+     778.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 57652,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     40.8,
+     40.8
+    ],
+    "length": [
+     35.63,
+     35.63
+    ],
+    "width": [
+     49.8,
+     49.8
+    ],
+    "hull": [
+     1276.2,
+     1276.2
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 59156,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     12.48,
+     12.48
+    ],
+    "length": [
+     41.32,
+     41.32
+    ],
+    "width": [
+     18.87,
+     18.87
+    ],
+    "hull": [
+     431.3,
+     431.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 59156,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     53.01,
+     53.01
+    ],
+    "length": [
+     46.28,
+     46.28
+    ],
+    "width": [
+     29.01,
+     29.01
+    ],
+    "hull": [
+     918.5,
+     918.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 59908,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     46.45,
+     46.45
+    ],
+    "length": [
+     32.62,
+     32.62
+    ],
+    "width": [
+     35.44,
+     35.44
+    ],
+    "hull": [
+     794.3,
+     794.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 59908,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     30.87,
+     30.87
+    ],
+    "length": [
+     36.95,
+     36.95
+    ],
+    "width": [
+     39.28,
+     39.28
+    ],
+    "hull": [
+     1069.1,
+     1069.1
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 60660,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     55.8,
+     55.8
+    ],
+    "length": [
+     39.22,
+     39.22
+    ],
+    "width": [
+     38.54,
+     38.54
+    ],
+    "hull": [
+     1185.7,
+     1185.7
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 60660,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     13.22,
+     13.22
+    ],
+    "length": [
+     38.79,
+     38.79
+    ],
+    "width": [
+     31.25,
+     31.25
+    ],
+    "hull": [
+     854.2,
+     854.2
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 61412,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     70.29,
+     70.29
+    ],
+    "length": [
+     35.78,
+     35.78
+    ],
+    "width": [
+     32.9,
+     32.9
+    ],
+    "hull": [
+     684.5,
+     684.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 61412,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     6.78,
+     6.78
+    ],
+    "length": [
+     36.64,
+     36.64
+    ],
+    "width": [
+     27.85,
+     27.85
+    ],
+    "hull": [
+     539.1,
+     539.1
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 63668,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     46.39,
+     46.39
+    ],
+    "length": [
+     47.22,
+     47.22
+    ],
+    "width": [
+     42.49,
+     42.49
+    ],
+    "hull": [
+     1275.4,
+     1275.4
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 63668,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     15.61,
+     15.61
+    ],
+    "length": [
+     48.19,
+     48.19
+    ],
+    "width": [
+     52.81,
+     52.81
+    ],
+    "hull": [
+     1953.1,
+     1953.1
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 64420,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     32.36,
+     32.36
+    ],
+    "length": [
+     35.41,
+     35.41
+    ],
+    "width": [
+     26.09,
+     26.09
+    ],
+    "hull": [
+     732.3,
+     732.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 64420,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     40.71,
+     40.71
+    ],
+    "length": [
+     43.5,
+     43.5
+    ],
+    "width": [
+     41.67,
+     41.67
+    ],
+    "hull": [
+     1318.7,
+     1318.7
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 68180,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     16.42,
+     16.42
+    ],
+    "length": [
+     15.57,
+     15.57
+    ],
+    "width": [
+     33.16,
+     33.16
+    ],
+    "hull": [
+     359.4,
+     359.4
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 68180,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     58.22,
+     58.22
+    ],
+    "length": [
+     34.62,
+     34.62
+    ],
+    "width": [
+     37.75,
+     37.75
+    ],
+    "hull": [
+     927.7,
+     927.7
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 68932,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     37.17,
+     37.17
+    ],
+    "length": [
+     40.42,
+     40.42
+    ],
+    "width": [
+     48.6,
+     48.6
+    ],
+    "hull": [
+     1196.6,
+     1196.6
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 68932,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     30.61,
+     30.61
+    ],
+    "length": [
+     40.34,
+     40.34
+    ],
+    "width": [
+     38.52,
+     38.52
+    ],
+    "hull": [
+     1036.2,
+     1036.2
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 69684,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     46.65,
+     46.65
+    ],
+    "length": [
+     34.41,
+     34.41
+    ],
+    "width": [
+     23.03,
+     23.03
+    ],
+    "hull": [
+     546.3,
+     546.3
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 69684,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     27.86,
+     27.86
+    ],
+    "length": [
+     37.37,
+     37.37
+    ],
+    "width": [
+     31.47,
+     31.47
+    ],
+    "hull": [
+     826.0,
+     826.0
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 70436,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     50.31,
+     50.31
+    ],
+    "length": [
+     32.94,
+     32.94
+    ],
+    "width": [
+     33.46,
+     33.46
+    ],
+    "hull": [
+     721.5,
+     721.5
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 70436,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     21.89,
+     21.89
+    ],
+    "length": [
+     31.7,
+     31.7
+    ],
+    "width": [
+     27.04,
+     27.04
+    ],
+    "hull": [
+     644.1,
+     644.1
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 71940,
+    "team": "home",
+    "samePartition": true,
+    "defLine": [
+     39.57,
+     39.57
+    ],
+    "length": [
+     31.63,
+     31.63
+    ],
+    "width": [
+     25.22,
+     25.22
+    ],
+    "hull": [
+     506.2,
+     506.2
+    ]
+   },
+   {
+    "period": 2,
+    "frame": 71940,
+    "team": "away",
+    "samePartition": true,
+    "defLine": [
+     40.12,
+     40.12
+    ],
+    "length": [
+     35.77,
+     35.77
+    ],
+    "width": [
+     30.24,
+     30.24
+    ],
+    "hull": [
+     695.9,
+     695.9
+    ]
+   }
+  ],
+  "method": "exact dynamic-programming 1-D k-means (k=3) on outfield depth; Andrew monotone-chain hull"
+ },
+ "lineBreaks": {
+  "passes": 983,
+  "identical": 983,
+  "mismatches": [],
+  "throughCount": [
+   212,
+   212
+  ],
+  "defenceLineCount": [
+   56,
+   56
+  ]
+ },
+ "physical": {
+  "speeds": [
+   {
+    "player": "DFL-OBJ-0002DR",
+    "frames": 3000,
+    "js_vs_py_maxAbs": 4.997210210505587e-05,
+    "js_vs_official_rmse": 0.04561555920170378,
+    "js_vs_official_medianAbs": 0.01359444841808749,
+    "js_vs_official_corr": 0.9974312518484579,
+    "mean_js": 0.9598525,
+    "mean_official": 0.964212961907119
+   },
+   {
+    "player": "DFL-OBJ-0002F5",
+    "frames": 3000,
+    "js_vs_py_maxAbs": 4.999410516681735e-05,
+    "js_vs_official_rmse": 0.056740762247547566,
+    "js_vs_official_medianAbs": 0.013483449893527455,
+    "js_vs_official_corr": 0.9990041492209999,
+    "mean_js": 2.6310931,
+    "mean_official": 2.6375351855255387
+   },
+   {
+    "player": "DFL-OBJ-00012X",
+    "frames": 3000,
+    "js_vs_py_maxAbs": 4.995651732730977e-05,
+    "js_vs_official_rmse": 0.057021841216487526,
+    "js_vs_official_medianAbs": 0.015872201029459743,
+    "js_vs_official_corr": 0.9987837887011909,
+    "mean_js": 1.8138296666666665,
+    "mean_official": 1.8155592602222332
+   },
+   {
+    "player": "DFL-OBJ-0028BD",
+    "frames": 3000,
+    "js_vs_py_maxAbs": 4.994075347997118e-05,
+    "js_vs_official_rmse": 0.04436133639089535,
+    "js_vs_official_medianAbs": 0.012577830759684439,
+    "js_vs_official_corr": 0.9995004851566898,
+    "mean_js": 2.0521122000000003,
+    "mean_official": 2.0568166655605586
+   }
+  ],
+  "distance": [
+   {
+    "player": "DFL-OBJ-0002DR",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 5.26,
+    "km_js": 5.242,
+    "ratio": 0.9965
+   },
+   {
+    "player": "DFL-OBJ-0000IA",
+    "frames_official": 95582,
+    "frames_js": 95582,
+    "km_official": 8.097,
+    "km_js": 8.083,
+    "ratio": 0.9982
+   },
+   {
+    "player": "DFL-OBJ-0027G6",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 11.696,
+    "km_js": 11.672,
+    "ratio": 0.998
+   },
+   {
+    "player": "DFL-OBJ-0002F5",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 12.71,
+    "km_js": 12.682,
+    "ratio": 0.9979
+   },
+   {
+    "player": "DFL-OBJ-0026PM",
+    "frames_official": 108452,
+    "frames_js": 108452,
+    "km_official": 8.578,
+    "km_js": 8.566,
+    "ratio": 0.9986
+   },
+   {
+    "player": "DFL-OBJ-0002AU",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 9.739,
+    "km_js": 9.724,
+    "ratio": 0.9984
+   },
+   {
+    "player": "DFL-OBJ-0027KL",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 10.709,
+    "km_js": 10.688,
+    "ratio": 0.998
+   },
+   {
+    "player": "DFL-OBJ-0027G0",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 10.342,
+    "km_js": 10.319,
+    "ratio": 0.9977
+   },
+   {
+    "player": "DFL-OBJ-J017RE",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 10.483,
+    "km_js": 10.46,
+    "ratio": 0.9978
+   },
+   {
+    "player": "DFL-OBJ-J01APO",
+    "frames_official": 129298,
+    "frames_js": 129298,
+    "km_official": 9.634,
+    "km_js": 9.615,
+    "ratio": 0.9981
+   },
+   {
+    "player": "DFL-OBJ-J01B8N",
+    "frames_official": 108382,
+    "frames_js": 108382,
+    "km_official": 8.884,
+    "km_js": 8.867,
+    "ratio": 0.9982
+   },
+   {
+    "player": "DFL-OBJ-0027AX",
+    "frames_official": 95262,
+    "frames_js": 95262,
+    "km_official": 8.147,
+    "km_js": 8.133,
+    "ratio": 0.9983
+   },
+   {
+    "player": "DFL-OBJ-00012X",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 10.177,
+    "km_js": 10.158,
+    "ratio": 0.9982
+   },
+   {
+    "player": "DFL-OBJ-000270",
+    "frames_official": 95287,
+    "frames_js": 95287,
+    "km_official": 7.183,
+    "km_js": 7.172,
+    "ratio": 0.9985
+   },
+   {
+    "player": "DFL-OBJ-0002HE",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 5.605,
+    "km_js": 5.59,
+    "ratio": 0.9973
+   },
+   {
+    "player": "DFL-OBJ-0002BO",
+    "frames_official": 95346,
+    "frames_js": 95346,
+    "km_official": 7.467,
+    "km_js": 7.454,
+    "ratio": 0.9982
+   },
+   {
+    "player": "DFL-OBJ-0027B6",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 10.23,
+    "km_js": 10.21,
+    "ratio": 0.998
+   },
+   {
+    "player": "DFL-OBJ-0028BD",
+    "frames_official": 125343,
+    "frames_js": 125343,
+    "km_official": 9.609,
+    "km_js": 9.592,
+    "ratio": 0.9983
+   },
+   {
+    "player": "DFL-OBJ-002G4A",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 12.364,
+    "km_js": 12.339,
+    "ratio": 0.998
+   },
+   {
+    "player": "DFL-OBJ-J01BGM",
+    "frames_official": 125257,
+    "frames_js": 125257,
+    "km_official": 10.578,
+    "km_js": 10.561,
+    "ratio": 0.9984
+   },
+   {
+    "player": "DFL-OBJ-J01D1W",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 9.959,
+    "km_js": 9.942,
+    "ratio": 0.9983
+   },
+   {
+    "player": "DFL-OBJ-002GKO",
+    "frames_official": 145967,
+    "frames_js": 145967,
+    "km_official": 12.75,
+    "km_js": 12.723,
+    "ratio": 0.9979
+   },
+   {
+    "player": "DFL-OBJ-J015S4",
+    "frames_official": 50385,
+    "frames_js": 50385,
+    "km_official": 3.291,
+    "km_js": 3.285,
+    "ratio": 0.9982
+   },
+   {
+    "player": "DFL-OBJ-0027V2",
+    "frames_official": 50705,
+    "frames_js": 50705,
+    "km_official": 3.288,
+    "km_js": 3.285,
+    "ratio": 0.9991
+   },
+   {
+    "player": "DFL-OBJ-002G89",
+    "frames_official": 50680,
+    "frames_js": 50680,
+    "km_official": 3.711,
+    "km_js": 3.706,
+    "ratio": 0.9986
+   },
+   {
+    "player": "DFL-OBJ-J01DVC",
+    "frames_official": 50621,
+    "frames_js": 50621,
+    "km_official": 4.0,
+    "km_js": 3.993,
+    "ratio": 0.9983
+   },
+   {
+    "player": "DFL-OBJ-0000RP",
+    "frames_official": 37515,
+    "frames_js": 37515,
+    "km_official": 2.447,
+    "km_js": 2.445,
+    "ratio": 0.9991
+   },
+   {
+    "player": "DFL-OBJ-000191",
+    "frames_official": 20889,
+    "frames_js": 20889,
+    "km_official": 1.57,
+    "km_js": 1.572,
+    "ratio": 1.0012
+   },
+   {
+    "player": "DFL-OBJ-0026ZI",
+    "frames_official": 20710,
+    "frames_js": 20710,
+    "km_official": 1.542,
+    "km_js": 1.541,
+    "ratio": 1.0
+   },
+   {
+    "player": "DFL-OBJ-002GBW",
+    "frames_official": 20624,
+    "frames_js": 20624,
+    "km_official": 1.698,
+    "km_js": 1.697,
+    "ratio": 0.9994
+   },
+   {
+    "player": "DFL-OBJ-002GCR",
+    "frames_official": 16669,
+    "frames_js": 16669,
+    "km_official": 1.366,
+    "km_js": 1.364,
+    "ratio": 0.9986
+   },
+   {
+    "player": "DFL-OBJ-J01N65",
+    "frames_official": 16696,
+    "frames_js": 16696,
+    "km_official": 1.212,
+    "km_js": 1.211,
+    "ratio": 0.9996
+   }
+  ],
+  "ratio_mean": 0.9984031250000001,
+  "ratio_min": 0.9965,
+  "ratio_max": 1.0012,
+  "note": "official S column (km/h) from the provider; app speeds are a 7-frame Savitzky\u2013Golay derivative of positions, clamped at 12 m/s"
+ },
+ "passModel": {
+  "openPlayPasses": 881,
+  "completed": 723,
+  "failed": 158,
+  "meanP_completed": 0.713,
+  "meanP_failed": 0.203,
+  "meanControl_completed": 0.831,
+  "meanControl_failed": 0.369,
+  "calibration": [
+   {
+    "bin": "0.0\u20130.2",
+    "n": 193,
+    "completion": 0.518
+   },
+   {
+    "bin": "0.2\u20130.4",
+    "n": 69,
+    "completion": 0.536
+   },
+   {
+    "bin": "0.4\u20130.6",
+    "n": 86,
+    "completion": 0.767
+   },
+   {
+    "bin": "0.6\u20130.8",
+    "n": 98,
+    "completion": 0.898
+   },
+   {
+    "bin": "0.8\u20131.0",
+    "n": 435,
+    "completion": 0.993
+   }
+  ]
+ }
+}

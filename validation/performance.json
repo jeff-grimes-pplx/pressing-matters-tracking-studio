@@ -1,0 +1,181 @@
+{
+ "cpu": {
+  "model": "Intel(R) Xeon(R) Processor @ 2.90GHz",
+  "cores": 2,
+  "speedMHz": 0
+ },
+ "tests": [
+  {
+   "label": "control-1x",
+   "throttle": 1,
+   "dragged": "DFL-OBJ-002GKO",
+   "dragMs": 5977,
+   "pointerEvents": 90,
+   "surfacesComputed": 89,
+   "updatesPerSecond": 14.890413250794712,
+   "rafFrames": 309,
+   "fps": 51.69817634264681,
+   "control": {
+    "n": 89,
+    "median": 13.799999999813735,
+    "p95": 27,
+    "max": 33.10000000009313,
+    "mean": 15.406741573025336
+   },
+   "value": {
+    "n": 89,
+    "median": 0,
+    "p95": 0,
+    "max": 0,
+    "mean": 0
+   },
+   "roundTrip": {
+    "n": 89,
+    "median": 26.899999999906868,
+    "p95": 40.700000000186265,
+    "max": 47,
+    "mean": 28.571910112363735
+   },
+   "before": {
+    "bestId": "DFL-OBJ-J015S4",
+    "bestProb": 0.9342176813656096,
+    "bestGain": -0.01506903519145891
+   },
+   "after": {
+    "bestId": "DFL-OBJ-002GCR",
+    "bestProb": 0.72495052709845,
+    "bestGain": -0.011576499117123485,
+    "whatIf": 1
+   }
+  },
+  {
+   "label": "value-1x",
+   "throttle": 1,
+   "dragged": "DFL-OBJ-002GKO",
+   "dragMs": 5985,
+   "pointerEvents": 90,
+   "surfacesComputed": 89,
+   "updatesPerSecond": 14.870509607351712,
+   "rafFrames": 381,
+   "fps": 63.65914786967418,
+   "control": {
+    "n": 89,
+    "median": 13.200000000186265,
+    "p95": 16.399999999906868,
+    "max": 33.5,
+    "mean": 13.933707865127728
+   },
+   "value": {
+    "n": 89,
+    "median": 3.6999999997206032,
+    "p95": 4.099999999627471,
+    "max": 9,
+    "mean": 3.75955056182496
+   },
+   "roundTrip": {
+    "n": 89,
+    "median": 24.09999999962747,
+    "p95": 33.200000000186265,
+    "max": 46.200000000186265,
+    "mean": 25.47640449439667
+   },
+   "before": {
+    "bestId": "DFL-OBJ-J015S4",
+    "bestProb": 0.9342176813656096,
+    "bestGain": -0.01506903519145891
+   },
+   "after": {
+    "bestId": "DFL-OBJ-002GCR",
+    "bestProb": 0.72495052709845,
+    "bestGain": -0.011576499117123485,
+    "whatIf": 1
+   }
+  },
+  {
+   "label": "control-4x",
+   "throttle": 4,
+   "dragged": "DFL-OBJ-002GKO",
+   "dragMs": 19294,
+   "pointerEvents": 90,
+   "surfacesComputed": 89,
+   "updatesPerSecond": 4.612833005079299,
+   "rafFrames": 288,
+   "fps": 14.926920286099305,
+   "control": {
+    "n": 89,
+    "median": 13.700000000186265,
+    "p95": 24,
+    "max": 28.899999999906868,
+    "mean": 14.937078651694812
+   },
+   "value": {
+    "n": 89,
+    "median": 0,
+    "p95": 0,
+    "max": 0,
+    "mean": 0
+   },
+   "roundTrip": {
+    "n": 89,
+    "median": 105.89999999990687,
+    "p95": 127.1999999997206,
+    "max": 157.39999999990687,
+    "mean": 108.29887640448496
+   },
+   "before": {
+    "bestId": "DFL-OBJ-J015S4",
+    "bestProb": 0.9342176813656096,
+    "bestGain": -0.01506903519145891
+   },
+   "after": {
+    "bestId": "DFL-OBJ-002GCR",
+    "bestProb": 0.72495052709845,
+    "bestGain": -0.011576499117123485,
+    "whatIf": 1
+   }
+  },
+  {
+   "label": "control-1x-sane",
+   "throttle": 1,
+   "dragged": "DFL-OBJ-0027B6",
+   "dragMs": 5665,
+   "pointerEvents": 90,
+   "surfacesComputed": 89,
+   "updatesPerSecond": 15.710503089143867,
+   "rafFrames": 317,
+   "fps": 55.957634598411296,
+   "control": {
+    "n": 89,
+    "median": 20.100000000093132,
+    "p95": 25.5,
+    "max": 46.700000000186265,
+    "mean": 21.316853932586362
+   },
+   "value": {
+    "n": 89,
+    "median": 0,
+    "p95": 0,
+    "max": 0,
+    "mean": 0
+   },
+   "roundTrip": {
+    "n": 89,
+    "median": 25.699999999720603,
+    "p95": 40.200000000186265,
+    "max": 58.40000000037253,
+    "mean": 27.826966292151575
+   },
+   "before": {
+    "bestId": "DFL-OBJ-0026PM",
+    "bestProb": 0.945388338759613,
+    "bestGain": 0.0024165329558931276
+   },
+   "after": {
+    "bestId": "DFL-OBJ-J01B8N",
+    "bestProb": 0.8791961470506447,
+    "bestGain": -0.006591829339035245,
+    "whatIf": 1
+   }
+  }
+ ]
+}

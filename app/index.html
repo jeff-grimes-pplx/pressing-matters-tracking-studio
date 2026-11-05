@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pressing Matters — 1. FC Köln v FC Bayern München, 25 Hz Tracking &amp; Counterfactual Studio</title>
+<meta name="description" content="Live 2D tactical pitch + 3D Broadcast / Spidercam stadium view, Spearman pitch control, passing-option value, counterfactual defender sandbox, PPDA and team-shape metrics computed from official DFL 25 Hz tracking data.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231d4a35'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%23ffc83d' stroke-width='2.5'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="app.css?v=a7-v5">
+</head>
+<body>
+<div id="app" class="app" data-state="loading">
+  <header class="bar">
+    <div class="bar-left">
+      <span class="wordmark">Pressing Matters</span>
+      <span class="match" id="matchTitle">—</span>
+    </div>
+    <div class="bar-clock">
+      <span class="score" id="score">— : —</span>
+      <span class="clock" id="clock">00:00</span>
+      <span class="period" id="periodLabel">1st half</span>
+    </div>
+    <div class="bar-right">
+      <div class="seg" id="viewSeg" role="group" aria-label="Camera view">
+        <button data-view="2d" class="on" title="Top-down 2D tactical pitch (D)">2D Pitch</button>
+        <button data-view="split" title="Synchronized 2D tactical pitch + 3D Broadcast view (B)">Split 2D+3D</button>
+        <button data-view="3d" title="3D Broadcast / Spidercam stadium perspective (G)">3D Broadcast</button>
+      </div>
+      <div class="seg" id="surfaceSeg" role="group" aria-label="Surface">
+        <button data-mode="control" class="on" title="Pitch control (C)">Control</button>
+        <button data-mode="value" title="Pass value: xT gain × control (P)">Pass value</button>
+        <button data-mode="off" title="Hide surface (O)">Off</button>
+      </div>
+      <button id="toggleShape" class="tog" title="Defensive lines &amp; convex hull (S)" aria-pressed="false">Shape</button>
+      <button id="toggleVelocity" class="tog" title="Velocity vectors (V)" aria-pressed="false">Velocity</button>
+      <button id="toggleOptions" class="tog on" title="Passing options (X)" aria-pressed="true">Options</button>
+      <button id="exportBtn" class="btn" title="Export this frame as an annotated PNG (E)">Export PNG</button>
+      <button id="infoBtn" class="btn ghost" title="Models, data, validation (?)">Models &amp; data</button>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="stage" id="stage">
+      <div class="stage-grid" id="stageGrid" data-view="2d">
+        <div class="pane pane-2d" id="pane2d">
+          <canvas id="pitch" aria-label="2D tactical pitch with players, ball and model overlays"></canvas>
+        </div>
+        <div class="pane pane-3d" id="pane3d">
+          <canvas id="pitch3d" aria-label="3D Broadcast / Spidercam stadium perspective"></canvas>
+          <div class="cam3d-bar" id="cam3dBar" role="group" aria-label="3D camera angle">
+            <span class="cam-tag">3D Cam</span>
+            <button data-cam="spidercam" class="on" title="Spidercam diagonal tactical view">Spidercam</button>
+            <button data-cam="broadcast" title="Main broadcast gantry view">TV Broadcast</button>
+            <button data-cam="carrier" title="Behind the ball carrier">Carrier POV</button>
+          </div>
+        </div>
+      </div>
+      <div class="stage-hud">
+        <div class="hud-left">
+          <span id="attackLabel" class="hud-pill">—</span>
+          <button id="swapAttack" class="hud-btn" title="Analyse the other team's control">Swap team</button>
+          <button id="whatIfPresetBtn" class="hud-btn action" title="Animate counterfactual: drag Köln #6 Martel into Gnabry → #22 Cancelo lane at 88:11">What-if: #6 Martel blocks Cancelo</button>
+          <button id="whatIfPocketBtn" class="hud-btn" title="Animate counterfactual: pull Köln #6 Martel +10 m to open Musiala pocket">What-if: Open Musiala</button>
+          <button id="resetWhatIf" class="hud-btn warn hidden" title="Restore tracked positions (Esc)">Reset what-if</button>
+          <span id="whatIfLabel" class="hud-pill amber hidden">what-if active</span>
+        </div>
+        <div class="hud-right">
+          <span id="eventLabel" class="hud-pill hidden"></span>
+        </div>
+      </div>
+      <div class="legend" id="legend">
+        <span class="legend-item"><i class="sw home"></i><span id="legendHome">Köln</span></span>
+        <span class="legend-item"><i class="sw away"></i><span id="legendAway">Bayern</span></span>
+        <span class="legend-item hidden"><i class="sw gain"></i>pass adds xT</span>
+        <span class="legend-item hidden"><i class="sw loss"></i>pass loses xT</span>
+        <span class="legend-item"><i class="sw best"></i>best option</span>
+        <span class="legend-item"><i class="sw actual"></i>pass played</span>
+        <span class="legend-item"><i class="sw frontier"></i>50 % frontier</span>
+      </div>
+      <div class="loading" id="loading">Loading tracking data…</div>
+    </section>
+
+    <aside class="panel" id="panel">
+      <section class="card" id="playerCard">
+        <div class="card-head"><h2>Player</h2><span class="muted" id="playerHint">click a player · drag to test a what-if</span></div>
+        <div class="player-empty" id="playerEmpty">Select a player on the pitch.</div>
+        <div class="player hidden" id="playerBody">
+          <div class="player-id"><span class="shirt" id="pShirt">—</span><div><div class="pname" id="pName">—</div><div class="muted small" id="pMeta">—</div></div></div>
+          <div class="kv">
+            <div><span class="k">speed</span><span class="v" id="pSpeed">—</span></div>
+            <div><span class="k">top</span><span class="v" id="pTop">—</span></div>
+            <div><span class="k">distance</span><span class="v" id="pDist">—</span></div>
+            <div><span class="k">HSR</span><span class="v" id="pHsr">—</span></div>
+            <div><span class="k">sprints</span><span class="v" id="pSprints">—</span></div>
+            <div><span class="k">accels</span><span class="v" id="pAcc">—</span></div>
+          </div>
+          <div class="kv-note muted">speed: now · everything else: kick-off to the playhead</div>
+          <canvas id="speedTrace" class="trace" height="36"></canvas>
+        </div>
+      </section>
+
+      <section class="card" id="optionsCard">
+        <div class="card-head"><h2>Passing options</h2><span class="muted" id="optionsMeta">—</span></div>
+        <div class="whatif-delta hidden" id="whatIfDelta"></div>
+        <table class="opts" id="optionsTable">
+          <thead><tr><th>#</th><th>receiver</th><th class="num" title="pass success score = (1 − lane risk) × control at target. Orders options by their real completion rate on this match — see Models &amp; data">P</th><th class="num" title="pitch control at the receiver when the ball arrives">ctrl</th><th class="num" title="lane interception risk">lane</th><th class="num">Δ xT</th><th class="num">m</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <div class="muted small" id="holdLine">—</div>
+      </section>
+
+      <section class="card" id="shapeCard">
+        <div class="card-head"><h2>Team shape</h2><span class="muted">outfield players, metres</span></div>
+        <table class="shape" id="shapeTable">
+          <thead><tr><th></th><th class="num">def line</th><th class="num">length</th><th class="num">width</th><th class="num">hull m²</th><th class="num">gaps</th></tr></thead>
+          <tbody><tr id="shapeHome"><td></td><td class="num"></td><td class="num"></td><td class="num"></td><td class="num"></td><td class="num"></td></tr>
+                 <tr id="shapeAway"><td></td><td class="num"></td><td class="num"></td><td class="num"></td><td class="num"></td><td class="num"></td></tr></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="pressCard">
+        <div class="card-head"><h2>Pressing · PPDA</h2><span class="muted">passes allowed per defensive action</span></div>
+        <table class="shape" id="ppdaTable">
+          <thead><tr><th></th><th class="num">last 5 min</th><th class="num">this half</th><th class="num">match</th></tr></thead>
+          <tbody><tr id="ppdaHome"><td></td><td class="num"></td><td class="num"></td><td class="num"></td></tr>
+                 <tr id="ppdaAway"><td></td><td class="num"></td><td class="num"></td><td class="num"></td></tr></tbody>
+        </table>
+        <canvas id="ppdaTrace" class="trace" height="56"></canvas>
+        <div class="muted small">rolling 5-minute window · lower = more intense press</div>
+      </section>
+
+      <div class="panel-foot">
+        <span id="perf" class="mono muted">surface — ms</span>
+        <span class="muted">Data: DFL / Sportec Solutions via Bassek et al. 2025, <a href="https://doi.org/10.6084/m9.figshare.28196177.v1" target="_blank" rel="noopener">CC BY 4.0</a></span>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="timeline">
+    <div class="tl-controls">
+      <button id="playBtn" class="icon" title="Play / pause (space)"><svg viewBox="0 0 16 16" width="16" height="16"><path id="playIcon" d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg></button>
+      <button id="stepBack" class="icon" title="Previous frame (←)"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M11 2.5v11l-7-5.5z M3 3h1.6v10H3z" fill="currentColor"/></svg></button>
+      <button id="stepFwd" class="icon" title="Next frame (→)"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M5 2.5v11l7-5.5z M11.4 3H13v10h-1.6z" fill="currentColor"/></svg></button>
+      <div class="seg small" role="group" aria-label="Speed">
+        <button data-speed="0.25">¼×</button><button data-speed="0.5">½×</button><button data-speed="1" class="on">1×</button><button data-speed="2">2×</button>
+      </div>
+      <span class="frame mono" id="frameLabel">P1 · f 0</span>
+      <div class="bookmarks" id="bookmarks"></div>
+    </div>
+    <div class="scrub-wrap">
+      <canvas id="scrub" class="scrub" aria-label="Match timeline"></canvas>
+      <div id="scrubTip" class="scrub-tip hidden"></div>
+    </div>
+  </footer>
+
+  <div class="drawer hidden" id="exportBox" role="dialog" aria-modal="true" aria-labelledby="exportTitle">
+    <div class="drawer-inner export-inner">
+      <div class="drawer-head"><h2 id="exportTitle">Frame exported</h2><div class="export-actions"><a id="exportLink" class="btn" href="#" download>Download PNG</a><button id="exportClose" class="btn ghost">Close</button></div></div>
+      <div class="export-body"><img id="exportImg" alt="Exported annotated frame" /><div class="export-name" id="exportName"></div></div>
+    </div>
+  </div>
+  <div class="drawer hidden" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+    <div class="drawer-inner">
+      <div class="drawer-head"><h2 id="drawerTitle">Models &amp; data</h2><button id="drawerClose" class="btn ghost">Close</button></div>
+      <div class="drawer-body" id="drawerBody"></div>
+    </div>
+  </div>
+</div>
+<script type="module" src="src/app.js?v=a7-v5"></script>
+</body>
+</html>

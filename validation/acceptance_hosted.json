@@ -1,0 +1,192 @@
+{
+ "build": "4da9928 (+ player-card layout CSS only)",
+ "url": "hosted private app asset 0132846d-c104-407d-9724-595b76ac1601, sandbox Chromium 1440×900, sandbox otherwise idle",
+ "readyMs": 1370,
+ "frame": "P2 f64794",
+ "tests": [
+  {
+   "name": "Martel (DFL-OBJ-002GKO) dragged onto the Gnabry → Cavaco Cancelo lane midpoint",
+   "before": {
+    "cancelo": {
+     "P": 0.9342,
+     "ctrl": 0.9604,
+     "lane": 0.0273,
+     "value": 0.023,
+     "rank": 1,
+     "of": 10
+    },
+    "musiala": {
+     "P": 0.6531,
+     "ctrl": 0.7054,
+     "lane": 0.0742,
+     "value": 0.023,
+     "rank": 2,
+     "of": 10
+    },
+    "best": {
+     "id": "DFL-OBJ-J015S4",
+     "P": 0.9342
+    },
+    "banner": "Pass played: Gnabry → Musiala · ranked #2 of 10"
+   },
+   "drag": {
+    "from": {
+     "x": -37.37,
+     "y": -15.8
+    },
+    "to": {
+     "x": -32.09,
+     "y": -23.78
+    }
+   },
+   "after": {
+    "cancelo": {
+     "P": 0,
+     "ctrl": 0.9423,
+     "lane": 1,
+     "value": -0.0097,
+     "rank": 7,
+     "of": 10
+    },
+    "musiala": {
+     "P": 0.7034,
+     "ctrl": 0.7583,
+     "lane": 0.0724,
+     "value": 0.0255,
+     "rank": 1,
+     "of": 10
+    },
+    "best": {
+     "id": "DFL-OBJ-002GCR",
+     "P": 0.7034
+    },
+    "banner": "Pass played: Gnabry → Musiala · ranked #2 of 10 · #1 of 10 under what-if"
+   },
+   "recomputes": 12,
+   "perfMs": [
+    {
+     "worker": 22.5,
+     "roundTrip": 32.4,
+     "render": 12.4
+    },
+    {
+     "worker": 13.2,
+     "roundTrip": 24.4,
+     "render": 4.3
+    },
+    {
+     "worker": 13.1,
+     "roundTrip": 23.8,
+     "render": 3.1
+    },
+    {
+     "worker": 13,
+     "roundTrip": 26.6,
+     "render": 6.3
+    },
+    {
+     "worker": 13,
+     "roundTrip": 24.1,
+     "render": 3.2
+    },
+    {
+     "worker": 14.4,
+     "roundTrip": 23.2,
+     "render": 3.6
+    },
+    {
+     "worker": 12.9,
+     "roundTrip": 24.5,
+     "render": 3.4
+    },
+    {
+     "worker": 13.2,
+     "roundTrip": 25.6,
+     "render": 5.6
+    },
+    {
+     "worker": 13.1,
+     "roundTrip": 23.7,
+     "render": 3.5
+    },
+    {
+     "worker": 14.2,
+     "roundTrip": 25,
+     "render": 3.5
+    },
+    {
+     "worker": 13.4,
+     "roundTrip": 24.6,
+     "render": 4
+    },
+    {
+     "worker": 35.1,
+     "roundTrip": 35.3,
+     "render": 4.5
+    }
+   ]
+  },
+  {
+   "name": "Martel (DFL-OBJ-002GKO), nearest Köln player to Musiala, dragged 10 m directly away from Musiala",
+   "before": {
+    "musiala": {
+     "P": 0.6531,
+     "ctrl": 0.7054,
+     "lane": 0.0742,
+     "value": 0.023,
+     "rank": 2,
+     "of": 10
+    },
+    "best": {
+     "id": "DFL-OBJ-J015S4",
+     "P": 0.9342
+    }
+   },
+   "drag": {
+    "from": {
+     "x": -37.37,
+     "y": -15.8
+    },
+    "to": {
+     "x": -43.66,
+     "y": -8.03
+    }
+   },
+   "after": {
+    "musiala": {
+     "P": 0.7255,
+     "ctrl": 0.7801,
+     "lane": 0.0699,
+     "value": 0.0266,
+     "rank": 1,
+     "of": 10
+    },
+    "best": {
+     "id": "DFL-OBJ-002GCR",
+     "P": 0.7255
+    },
+    "banner": "Pass played: Gnabry → Musiala · ranked #2 of 10 · #1 of 10 under what-if"
+   }
+  }
+ ],
+ "afterReset": {
+  "cancelo": {
+   "P": 0.9342,
+   "ctrl": 0.9604,
+   "lane": 0.0273,
+   "value": 0.023,
+   "rank": 1,
+   "of": 10
+  },
+  "musiala": {
+   "P": 0.6531,
+   "ctrl": 0.7054,
+   "lane": 0.0742,
+   "value": 0.023,
+   "rank": 2,
+   "of": 10
+  },
+  "banner": "Pass played: Gnabry → Musiala · ranked #2 of 10"
+ },
+ "errors": []
+}
