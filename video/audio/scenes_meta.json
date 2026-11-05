@@ -1,0 +1,114 @@
+[
+  {
+    "id": "s01",
+    "caption": "We asked Perplexity Computer to build a tactical studio from 25 Hz tracking data of Bayern Munich's 2023 title decider.",
+    "tts": "We asked Perplexity Computer to build a tactical studio from twenty-five hertz tracking data of Bayern Munich's twenty twenty-three title decider.",
+    "vo_dur": 7.44,
+    "scene_dur": 7.99
+  },
+  {
+    "id": "s02",
+    "caption": "Every 40 milliseconds, the browser streams all 22 players and computes a velocity-weighted Spearman pitch-control field.",
+    "tts": "Every forty milliseconds, the browser streams all twenty-two players and computes a velocity-weighted Spearman pitch-control field.",
+    "vo_dur": 8.299,
+    "scene_dur": 8.85
+  },
+  {
+    "id": "s03",
+    "caption": "Freeze at 88:11, three seconds before the winning goal. Serge Gnabry holds the ball on the left wing with ten pass options.",
+    "tts": "Freeze at eighty-eight eleven, three seconds before the winning goal. Serge Gnabry holds the ball on the left wing with ten pass options.",
+    "vo_dur": 7.36,
+    "scene_dur": 7.91
+  },
+  {
+    "id": "s04",
+    "caption": "The model ranks Joao Cancelo #1 at 93% completion, while Jamal Musiala near the box is second at 65%.",
+    "tts": "The model ranks Joao Cancelo number one at ninety-three percent completion, while Jamal Musiala near the box is second at sixty-five percent.",
+    "vo_dur": 9.151,
+    "scene_dur": 9.45
+  },
+  {
+    "id": "s05",
+    "caption": "Switching to Split 2D+3D view pairs the top-down tactical pitch with a 3D Spidercam stadium perspective.",
+    "tts": "Switching to split two-D and three-D view pairs the top-down tactical pitch with a three-D Spidercam stadium perspective.",
+    "vo_dur": 7.2,
+    "scene_dur": 7.75
+  },
+  {
+    "id": "s06",
+    "caption": "In full 3D Broadcast mode, you can switch from Spidercam to TV Broadcast or drop into Serge Gnabry's carrier point of view.",
+    "tts": "In full three-D broadcast mode, you can switch from Spidercam to TV Broadcast or drop into Serge Gnabry's carrier point of view.",
+    "vo_dur": 7.578,
+    "scene_dur": 8.13
+  },
+  {
+    "id": "s07",
+    "caption": "From Gnabry's left-wing perspective, glowing 3D corridors show the 93% lane to Cancelo and 65% lane to Musiala.",
+    "tts": "From Gnabry's left-wing perspective, glowing three-D corridors show the ninety-three percent lane to Cancelo and sixty-five percent lane to Musiala.",
+    "vo_dur": 8.312,
+    "scene_dur": 8.86
+  },
+  {
+    "id": "s08",
+    "caption": "Now test a counterfactual what-if: drag Cologne midfielder Eric Martel 9.4 meters south into Cancelo's lane.",
+    "tts": "Now test a counterfactual what-if: drag Cologne midfielder Eric Martel nine point four meters south into Cancelo's lane.",
+    "vo_dur": 8.049,
+    "scene_dur": 8.6
+  },
+  {
+    "id": "s09",
+    "caption": "An amber ghost trail marks Martel's 9.4 m shift as his control pocket drops Cancelo from 93% to 0%.",
+    "tts": "An amber ghost trail marks Martel's nine point four meter shift as his control pocket drops Cancelo from ninety-three percent to zero.",
+    "vo_dur": 8.929,
+    "scene_dur": 9.43
+  },
+  {
+    "id": "s10",
+    "caption": "In the live pass table, Cancelo drops from #1 to #7 as blocked, promoting Jamal Musiala to #1 at 70% completion.",
+    "tts": "In the live pass table, Cancelo drops from first to seventh as blocked, promoting Jamal Musiala to number one at seventy percent completion.",
+    "vo_dur": 8.304,
+    "scene_dur": 8.85
+  },
+  {
+    "id": "s11",
+    "caption": "Replaying that drag in Split 2D+3D view shows the 3D gold corridor shift off Cancelo and lock onto Musiala.",
+    "tts": "Replaying that drag in split two-D and three-D view shows the three-D gold corridor shift off Cancelo and lock onto Musiala.",
+    "vo_dur": 7.973,
+    "scene_dur": 8.52
+  },
+  {
+    "id": "s12",
+    "caption": "Testing the second preset pulls Martel 10 meters deeper toward midfield, opening Musiala's pocket up to 73% completion.",
+    "tts": "Testing the second preset pulls Martel ten meters deeper toward midfield, opening Musiala's pocket up to seventy-three percent completion.",
+    "vo_dur": 7.28,
+    "scene_dur": 7.83
+  },
+  {
+    "id": "s13",
+    "caption": "Toggling Shape and Pass Value shows Cologne's 532 m\u00b2 block, Bayern's 1,036 m\u00b2 hull, and expected-threat zones.",
+    "tts": "Toggling Shape and Pass Value shows Cologne's five hundred thirty-two square meter block, Bayern's hull, and expected-threat zones.",
+    "vo_dur": 7.95,
+    "scene_dur": 8.5
+  },
+  {
+    "id": "s14",
+    "caption": "Rolling the 25 Hz tracking data forward from 88:11, Gnabry plays that pass to Musiala, who turns and scores the 88:14 winner.",
+    "tts": "Rolling the twenty-five hertz tracking data forward from eighty-eight eleven, Gnabry plays that pass to Musiala, who turns and scores the eighty-eight fourteen winner.",
+    "vo_dur": 8.56,
+    "scene_dur": 9.11
+  },
+  {
+    "id": "s15",
+    "caption": "Every equation and Python verification receipt across 701 tracking frames is documented inside the Models and Data drawer.",
+    "tts": "Every equation and Python verification receipt across seven hundred one tracking frames is documented inside the Models and Data drawer.",
+    "vo_dur": 8.16,
+    "scene_dur": 8.71
+  },
+  {
+    "id": "s16",
+    "caption": "Pressing Matters turns static match coordinates into an interactive 2D and 3D tactical studio, built with Perplexity Computer.",
+    "tts": "Pressing Matters turns static match coordinates into an interactive two-D and three-D tactical studio, built with Perplexity Computer.",
+    "vo_dur": 7.815,
+    "scene_dur": 8.36
+  }
+]

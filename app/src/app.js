@@ -746,4 +746,40 @@ function exportFrame() {
   }, "image/png");
 }
 
+window.__studio = {
+  state,
+  seek: async (p, f) => {
+    await seek(p, f);
+    render();
+    await new Promise((r) => setTimeout(r, 18));
+    render();
+  },
+  setWhatIf: async (pid, x, y, selId = pid) => {
+    state.whatIfAnim = null;
+    state.selectedId = selId;
+    state.attackOverride = "away";
+    state.whatIfFrame = `${state.periodId}:${state.frame}`;
+    state.whatIf.set(pid, { x, y, ball: false });
+    lastFrameKey = "";
+    needsRender = true;
+    render();
+    await new Promise((r) => setTimeout(r, 18));
+    render();
+  },
+  clearWhatIf: async () => {
+    clearWhatIf(true);
+    state.selectedId = null;
+    state.attackOverride = null;
+    lastFrameKey = "";
+    render();
+    await new Promise((r) => setTimeout(r, 18));
+    render();
+  },
+  toViewport: (wx, wy) => {
+    const rect = canvas.getBoundingClientRect();
+    const [sx, sy] = renderer.toScreen(wx, wy);
+    return { x: rect.left + sx, y: rect.top + sy };
+  },
+};
+
 boot();
